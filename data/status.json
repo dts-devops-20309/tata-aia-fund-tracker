@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-11-16T14:53:49+00:00",
+  "run_at": "2026-11-16T15:08:31+00:00",
   "errors": [],
   "new_points": 0,
   "latest_portfolio_month": "202606",
@@ -20,22 +20,22 @@
       "stale": false
     },
     "ESG": {
-      "first": "2026-08-19",
-      "last": "2026-08-19",
-      "points": 1,
-      "stale": true
+      "first": "2023-03-31",
+      "last": "2026-11-16",
+      "points": 899,
+      "stale": false
     },
     "FGF": {
-      "first": "2026-08-19",
-      "last": "2026-08-19",
-      "points": 1,
-      "stale": true
+      "first": "2023-12-31",
+      "last": "2026-11-16",
+      "points": 714,
+      "stale": false
     },
     "ICF": {
-      "first": "2026-08-19",
-      "last": "2026-08-19",
-      "points": 1,
-      "stale": true
+      "first": "2015-10-05",
+      "last": "2026-11-16",
+      "points": 2755,
+      "stale": false
     },
     "ITF": {
       "first": "2026-08-19",
@@ -56,34 +56,34 @@
       "stale": false
     },
     "MIF": {
-      "first": "2026-08-19",
-      "last": "2026-08-19",
-      "points": 1,
-      "stale": true
+      "first": "2024-06-18",
+      "last": "2026-11-16",
+      "points": 600,
+      "stale": false
     },
     "RIF": {
-      "first": "2026-08-19",
-      "last": "2026-08-19",
-      "points": 1,
-      "stale": true
+      "first": "2024-03-31",
+      "last": "2026-11-16",
+      "points": 652,
+      "stale": false
     },
     "SCF": {
-      "first": "2026-08-19",
-      "last": "2026-08-19",
-      "points": 1,
-      "stale": true
+      "first": "2023-07-24",
+      "last": "2026-11-16",
+      "points": 823,
+      "stale": false
     },
     "TLC": {
-      "first": "2026-08-19",
-      "last": "2026-08-19",
-      "points": 1,
-      "stale": true
+      "first": "2008-01-11",
+      "last": "2026-11-16",
+      "points": 4670,
+      "stale": false
     },
     "TSS": {
-      "first": "2026-08-19",
-      "last": "2026-08-19",
-      "points": 1,
-      "stale": true
+      "first": "2009-10-21",
+      "last": "2026-11-16",
+      "points": 4235,
+      "stale": false
     },
     "WLA": {
       "first": "2026-08-19",
@@ -117,16 +117,8 @@
     }
   },
   "stale_funds": [
-    "ESG",
-    "FGF",
-    "ICF",
     "ITF",
     "ITT",
-    "MIF",
-    "RIF",
-    "SCF",
-    "TLC",
-    "TSS",
     "WLA",
     "WLE",
     "WLF",
