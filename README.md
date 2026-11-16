@@ -1,6 +1,28 @@
 # Tata AIA Fund Tracker
 
-Nightly data collection for 18 Tata AIA Life ULIP funds, as groundwork for a GitHub Pages performance dashboard.
+Nightly data collection and a plain-language performance dashboard for 18 Tata AIA Life ULIP funds.
+
+**Dashboard:** https://mchittineni.github.io/tata-aia-fund-tracker/
+
+## Dashboard
+
+A static page (`site/`, no build tools or dependencies) deployed by [`.github/workflows/pages.yml`](.github/workflows/pages.yml) after every data change and every nightly fetch.
+
+- **Overview:** each fund's return over 1 day, 1 week, 2 weeks, 1 month, 3 months, 6 months, 1 year and since Jan 2022 (total and per year), a ranked "which funds did best" chart, and a sortable, filterable table with 12-month sparklines.
+- **Fund page** (click any fund):
+  - NAV chart with range buttons, and what ₹10,000 invested in Jan 2022 is worth today;
+  - the biggest drop from a high, and trailing returns;
+  - gain or loss for every day, week, fortnight, month, quarter, half-year and year since Jan 2022, with best, worst and average periods, plus a table view.
+- **Holdings drill-down:**
+  - the split between shares, bonds and cash;
+  - the top 10 stocks and top sectors;
+  - fund vs benchmark returns, fund size, manager and risk level.
+
+  These come from the latest monthly fact sheet.
+
+All returns are computed in the browser from `data/nav/*.csv`. They match the 1-year returns Tata AIA publishes, checked for 30 Jun 2026.
+
+Build locally: `python scripts/build_site.py && python -m http.server -d _site`
 
 ## What runs
 
