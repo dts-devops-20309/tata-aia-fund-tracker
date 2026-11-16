@@ -1,0 +1,60 @@
+name: Fetch fund data (nightly)
+
+on:
+  schedule:
+    # 20:30 UTC = 02:00 IST, after Tata AIA publishes the day's NAVs.
+    - cron: "30 20 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "data/import/**"
+      - "funds.json"
+      - "scripts/**"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch-data
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Import manual CSV backfills (if any)
+        run: python scripts/import_csv.py
+
+      - name: Fetch latest NAV and monthly fund details
+        run: python scripts/fetch.py
+
+      - name: Summary
+        if: always()
+        run: |
+          {
+            echo "### Fund data fetch"
+            echo '```json'
+            cat data/status.json 2>/dev/null || echo '{}'
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "No data changes."
+            exit 0
+          fi
+          git commit -m "chore(data): nightly fetch $(date -u +%F)"
+          git pull --rebase --quiet origin "$GITHUB_REF_NAME"
+          git push

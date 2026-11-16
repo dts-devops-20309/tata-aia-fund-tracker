@@ -1,0 +1,3201 @@
+{
+  "month": "202606",
+  "funds": {
+    "ICF": {
+      "month": "202606",
+      "sfin": "ULIF 061 15/07/14 ICF 110",
+      "official_name": "INDIA CONSUMPTION FUND",
+      "manager": "Mr. Nimesh Mistry",
+      "objective": "The primary investment objective of the Fund is to generate capital appreciation in the long term by investing in a diversified portfolio of companies which would benefit from India?s Domestic Consumption growth story. The India Consumption Fund could provide an investment opportunity in the theme of rising consumption power in India for long term returns",
+      "type": "Equity",
+      "risk": "High",
+      "aum_cr": 2731.543561,
+      "benchmark": "S&P BSE 200 - 100%",
+      "asset_mix": {
+        "equity_pct": 95.646366,
+        "debt_pct": null,
+        "mmi_others_pct": 4.353634
+      },
+      "holdings": [
+        {
+          "name": "BSE Ltd",
+          "pct": 4.247592
+        },
+        {
+          "name": "ETERNAL LIMITED",
+          "pct": 3.684293
+        },
+        {
+          "name": "Swiggy Ltd",
+          "pct": 2.871726
+        },
+        {
+          "name": "Reliance Industries Ltd",
+          "pct": 2.865605
+        },
+        {
+          "name": "Radico Khaitan Ltd",
+          "pct": 2.834388
+        },
+        {
+          "name": "Titan Company Ltd",
+          "pct": 2.770905
+        },
+        {
+          "name": "One97 Communications Ltd",
+          "pct": 2.696927
+        },
+        {
+          "name": "LG Electronics India Ltd",
+          "pct": 2.576483
+        },
+        {
+          "name": "Shriram Finance Limited",
+          "pct": 2.549162
+        },
+        {
+          "name": "HDFC Bank Ltd",
+          "pct": 2.438139
+        }
+      ],
+      "sectors": [
+        {
+          "name": "Financial service activities, except insurance and pension funding",
+          "pct": 12.064973
+        },
+        {
+          "name": "Information service activities",
+          "pct": 9.252946
+        },
+        {
+          "name": "Manufacture of machinery and equipment n.e.c.",
+          "pct": 7.438876
+        },
+        {
+          "name": "Manufacture of electrical equipment",
+          "pct": 5.553335
+        },
+        {
+          "name": "Other financial activities",
+          "pct": 5.408422
+        },
+        {
+          "name": "Manufacture of pharmaceuticals,medicinal chemical and botanical products",
+          "pct": 5.277218
+        },
+        {
+          "name": "Insurance, reinsurance and pension funding, except compulsory social security",
+          "pct": 4.739321
+        },
+        {
+          "name": "Manufacture of coke and refined petroleum products",
+          "pct": 4.697846
+        },
+        {
+          "name": "Manufacture of beverages",
+          "pct": 4.16433
+        },
+        {
+          "name": "Manufacture of other transport equipment",
+          "pct": 4.029682
+        },
+        {
+          "name": "Others",
+          "pct": 37.373051
+        }
+      ],
+      "returns": {
+        "1_month": {
+          "nav": 62.3796,
+          "change_pct": 3.105502
+        },
+        "3_months": {
+          "nav": 56.0275,
+          "change_pct": 14.795056
+        },
+        "6_months": {
+          "nav": 64.3247,
+          "change_pct": -0.012281
+        },
+        "1_year": {
+          "nav": 61.949,
+          "change_pct": 3.822176
+        },
+        "2_years": {
+          "nav": 58.0683,
+          "change_pct": 5.242864
+        },
+        "3_years": {
+          "nav": 38.6915,
+          "change_pct": 18.459425
+        },
+        "4_years": {
+          "nav": 29.2226,
+          "change_pct": 21.801151
+        },
+        "5_years": {
+          "nav": 29.5538,
+          "change_pct": 16.82673
+        },
+        "since_inception": {
+          "nav": 9.9996,
+          "change_pct": 18.917925
+        }
+      },
+      "benchmark_returns": {
+        "1_month": {
+          "nav": 11035.46,
+          "change_pct": 1.179652
+        },
+        "3_months": {
+          "nav": 10155.99,
+          "change_pct": 9.941424
+        },
+        "6_months": {
+          "nav": 11808.41,
+          "change_pct": -5.443324
+        },
+        "1_year": {
+          "nav": 11592.7,
+          "change_pct": -3.68387
+        },
+        "2_years": {
+          "nav": 11106.33,
+          "change_pct": 0.266654
+        },
+        "3_years": {
+          "nav": 8273.51,
+          "change_pct": 10.509074
+        },
+        "4_years": {
+          "nav": 6812.11,
+          "change_pct": 13.148941
+        },
+        "5_years": {
+          "nav": 6823.58,
+          "change_pct": 10.35049
+        },
+        "since_inception": {
+          "nav": 3426.34,
+          "change_pct": 11.624454
+        }
+      }
+    },
+    "ITF": {
+      "month": "202606",
+      "sfin": "ULIF 026 12/01/09 ITF 110",
+      "official_name": "TOP 50 FUND",
+      "manager": "Mr. Rajeev Tewari",
+      "objective": "The Top 50 fund will invest primarily in select stocks and equity linked instruments which are a part of Nifty 50 Index with a focus on generating long term capital appreciation. The fund will not replicate the index but aim to attain performance better than the performance of the Index. As a defensive strategy arising out of market conditions, the scheme may also invest in debt and money market instruments",
+      "type": "Equity",
+      "risk": "High",
+      "aum_cr": 405.134696,
+      "benchmark": "Nifty 50 - 100%",
+      "asset_mix": {
+        "equity_pct": 96.739228,
+        "debt_pct": null,
+        "mmi_others_pct": 3.260772
+      },
+      "holdings": [
+        {
+          "name": "Reliance Industries Ltd",
+          "pct": 7.587526
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "pct": 7.007862
+        },
+        {
+          "name": "Bharti Airtel Ltd",
+          "pct": 5.006554
+        },
+        {
+          "name": "Larsen & Toubro Ltd",
+          "pct": 4.91203
+        },
+        {
+          "name": "HDFC Bank Ltd",
+          "pct": 4.807656
+        },
+        {
+          "name": "State Bank of India",
+          "pct": 3.747623
+        },
+        {
+          "name": "ICICI Prudential Asset Management Company Ltd",
+          "pct": 2.813511
+        },
+        {
+          "name": "NTPC Ltd",
+          "pct": 2.722043
+        },
+        {
+          "name": "Mahindra and Mahindra Ltd",
+          "pct": 2.641851
+        },
+        {
+          "name": "One97 Communications Ltd",
+          "pct": 2.594344
+        }
+      ],
+      "sectors": [
+        {
+          "name": "Financial service activities, except insurance and pension funding",
+          "pct": 31.955025
+        },
+        {
+          "name": "Manufacture of coke and refined petroleum products",
+          "pct": 8.486634
+        },
+        {
+          "name": "Telecommunications",
+          "pct": 5.006554
+        },
+        {
+          "name": "Civil engineering",
+          "pct": 4.91203
+        },
+        {
+          "name": "Information service activities",
+          "pct": 4.546404
+        },
+        {
+          "name": "Computer programming, consultancy and related activities",
+          "pct": 4.488171
+        },
+        {
+          "name": "Manufacture of pharmaceuticals,medicinal chemical and botanical products",
+          "pct": 4.026727
+        },
+        {
+          "name": "Retail trade, except of motor vehicles and motorcycles",
+          "pct": 3.735109
+        },
+        {
+          "name": "Human health activities",
+          "pct": 3.52623
+        },
+        {
+          "name": "Other financial activities",
+          "pct": 2.813511
+        },
+        {
+          "name": "Others",
+          "pct": 26.503604
+        }
+      ],
+      "returns": {
+        "1_month": {
+          "nav": 93.5213,
+          "change_pct": 2.761938
+        },
+        "3_months": {
+          "nav": 87.8082,
+          "change_pct": 9.447979
+        },
+        "6_months": {
+          "nav": 100.8189,
+          "change_pct": -4.676306
+        },
+        "1_year": {
+          "nav": 98.417,
+          "change_pct": -2.349899
+        },
+        "2_years": {
+          "nav": 91.8859,
+          "change_pct": 2.269698
+        },
+        "3_years": {
+          "nav": 66.0401,
+          "change_pct": 13.321339
+        },
+        "4_years": {
+          "nav": 53.5059,
+          "change_pct": 15.767135
+        },
+        "5_years": {
+          "nav": 53.8493,
+          "change_pct": 12.282624
+        },
+        "since_inception": {
+          "nav": 10.0,
+          "change_pct": 13.825713
+        }
+      },
+      "benchmark_returns": {
+        "1_month": {
+          "nav": 23547.75,
+          "change_pct": 1.350447
+        },
+        "3_months": {
+          "nav": 22331.4,
+          "change_pct": 6.870819
+        },
+        "6_months": {
+          "nav": 26129.6,
+          "change_pct": -8.663929
+        },
+        "1_year": {
+          "nav": 25517.05,
+          "change_pct": -6.471359
+        },
+        "2_years": {
+          "nav": 24010.6,
+          "change_pct": -0.302094
+        },
+        "3_years": {
+          "nav": 19189.05,
+          "change_pct": 7.540951
+        },
+        "4_years": {
+          "nav": 15780.25,
+          "change_pct": 10.895852
+        },
+        "5_years": {
+          "nav": 15721.5,
+          "change_pct": 8.706677
+        },
+        "since_inception": {
+          "nav": 2773.1,
+          "change_pct": 13.109024
+        }
+      }
+    },
+    "ITT": {
+      "month": "202606",
+      "sfin": "ULIF 027 12/01/09 ITT 110",
+      "official_name": "TOP 200 FUND",
+      "manager": "Mr. Rajeev Tewari",
+      "objective": "The Top 200 fund will invest primarily in select stocks and equity linked instruments which are a part of BSE 200 Index with a focus on generating long term capital appreciation. The fund will not replicate the index but aim to attain performance better than the performance of the Index. As a defensive strategy arising out of market conditions, the scheme may also invest in debt and money market instruments.",
+      "type": "Equity",
+      "risk": "High",
+      "aum_cr": 3188.093434,
+      "benchmark": "S&P BSE 200 - 100%",
+      "asset_mix": {
+        "equity_pct": 96.133348,
+        "debt_pct": null,
+        "mmi_others_pct": 3.866652
+      },
+      "holdings": [
+        {
+          "name": "Reliance Industries Ltd",
+          "pct": 4.952135
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "pct": 4.744905
+        },
+        {
+          "name": "HDFC Bank Ltd",
+          "pct": 3.208639
+        },
+        {
+          "name": "Ajanta Pharma Ltd",
+          "pct": 2.874458
+        },
+        {
+          "name": "Larsen & Toubro Ltd",
+          "pct": 2.859226
+        },
+        {
+          "name": "BSE Ltd",
+          "pct": 2.667525
+        },
+        {
+          "name": "Bharti Airtel Ltd",
+          "pct": 2.429953
+        },
+        {
+          "name": "ETERNAL LIMITED",
+          "pct": 2.429402
+        },
+        {
+          "name": "GMR Airports Limited",
+          "pct": 2.229077
+        },
+        {
+          "name": "Max Healthcare Institute Ltd",
+          "pct": 2.084316
+        }
+      ],
+      "sectors": [
+        {
+          "name": "Financial service activities, except insurance and pension funding",
+          "pct": 16.865542
+        },
+        {
+          "name": "Manufacture of Basic Metals",
+          "pct": 6.234938
+        },
+        {
+          "name": "Manufacture of coke and refined petroleum products",
+          "pct": 6.189395
+        },
+        {
+          "name": "Manufacture of computer, electronic and optical products",
+          "pct": 5.253421
+        },
+        {
+          "name": "Manufacture of pharmaceuticals,medicinal chemical and botanical products",
+          "pct": 5.120797
+        },
+        {
+          "name": "Other financial activities",
+          "pct": 4.773102
+        },
+        {
+          "name": "Information service activities",
+          "pct": 4.566068
+        },
+        {
+          "name": "Computer programming, consultancy and related activities",
+          "pct": 4.418347
+        },
+        {
+          "name": "Manufacture of electrical equipment",
+          "pct": 4.331552
+        },
+        {
+          "name": "Human health activities",
+          "pct": 4.201143
+        },
+        {
+          "name": "Others",
+          "pct": 38.045694
+        }
+      ],
+      "returns": {
+        "1_month": {
+          "nav": 179.4837,
+          "change_pct": 3.131482
+        },
+        "3_months": {
+          "nav": 161.4176,
+          "change_pct": 14.674112
+        },
+        "6_months": {
+          "nav": 185.8806,
+          "change_pct": -0.417687
+        },
+        "1_year": {
+          "nav": 182.3106,
+          "change_pct": 1.53233
+        },
+        "2_years": {
+          "nav": 167.1043,
+          "change_pct": 5.248114
+        },
+        "3_years": {
+          "nav": 112.6996,
+          "change_pct": 17.986223
+        },
+        "4_years": {
+          "nav": 86.3529,
+          "change_pct": 20.999851
+        },
+        "5_years": {
+          "nav": 86.7766,
+          "change_pct": 16.359736
+        },
+        "since_inception": {
+          "nav": 10.0,
+          "change_pct": 18.176647
+        }
+      },
+      "benchmark_returns": {
+        "1_month": {
+          "nav": 11035.46,
+          "change_pct": 1.179652
+        },
+        "3_months": {
+          "nav": 10155.99,
+          "change_pct": 9.941424
+        },
+        "6_months": {
+          "nav": 11808.41,
+          "change_pct": -5.443324
+        },
+        "1_year": {
+          "nav": 11592.7,
+          "change_pct": -3.68387
+        },
+        "2_years": {
+          "nav": 11106.33,
+          "change_pct": 0.266654
+        },
+        "3_years": {
+          "nav": 8273.51,
+          "change_pct": 10.509074
+        },
+        "4_years": {
+          "nav": 6812.11,
+          "change_pct": 13.148941
+        },
+        "5_years": {
+          "nav": 6823.58,
+          "change_pct": 10.35049
+        },
+        "since_inception": {
+          "nav": 1091.37,
+          "change_pct": 14.23395
+        }
+      }
+    },
+    "MCF": {
+      "month": "202606",
+      "sfin": "ULIF 060 15/07/14 MCF 110",
+      "official_name": "MULTI CAP FUND",
+      "manager": "Mr. Nitin Bansal & Mr. Shashank Khetawat",
+      "objective": "The primary investment objective of the Fund is to generate capital appreciation in the long term by investing in a diversified portfolio of Large Cap and Mid Cap companies. The allocation between Large Cap and Mid Cap companies will be largely a function of the relative valuations of Large Cap companies as against Mid Cap companies.",
+      "type": "Equity",
+      "risk": "High",
+      "aum_cr": 11285.975491,
+      "benchmark": "S&P BSE 200 - 100%",
+      "asset_mix": {
+        "equity_pct": 95.006168,
+        "debt_pct": null,
+        "mmi_others_pct": 4.993832
+      },
+      "holdings": [
+        {
+          "name": "BSE Ltd",
+          "pct": 5.239619
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "pct": 4.984216
+        },
+        {
+          "name": "ETERNAL LIMITED",
+          "pct": 4.437669
+        },
+        {
+          "name": "Reliance Industries Ltd",
+          "pct": 3.908326
+        },
+        {
+          "name": "PB Fintech Ltd",
+          "pct": 3.559493
+        },
+        {
+          "name": "Mahindra and Mahindra Ltd",
+          "pct": 3.007947
+        },
+        {
+          "name": "Shriram Finance Limited",
+          "pct": 2.874512
+        },
+        {
+          "name": "Kotak Mahindra Bank Ltd",
+          "pct": 2.815807
+        },
+        {
+          "name": "State Bank of India",
+          "pct": 2.77969
+        },
+        {
+          "name": "Syrma SGS Technology Ltd",
+          "pct": 2.688304
+        }
+      ],
+      "sectors": [
+        {
+          "name": "Financial service activities, except insurance and pension funding",
+          "pct": 18.229137
+        },
+        {
+          "name": "Information service activities",
+          "pct": 7.84295
+        },
+        {
+          "name": "Other financial activities",
+          "pct": 7.655423
+        },
+        {
+          "name": "Manufacture of machinery and equipment n.e.c.",
+          "pct": 7.048615
+        },
+        {
+          "name": "Computer programming, consultancy and related activities",
+          "pct": 5.565703
+        },
+        {
+          "name": "Manufacture of coke and refined petroleum products",
+          "pct": 5.485701
+        },
+        {
+          "name": "Human health activities",
+          "pct": 4.730419
+        },
+        {
+          "name": "Manufacture of motor vehicles, trailers and semi-trailers",
+          "pct": 3.756506
+        },
+        {
+          "name": "Insurance, reinsurance and pension funding, except compulsory social security",
+          "pct": 3.559493
+        },
+        {
+          "name": "Construction of buildings",
+          "pct": 3.373157
+        },
+        {
+          "name": "Others",
+          "pct": 32.752895
+        }
+      ],
+      "returns": {
+        "1_month": {
+          "nav": 64.8866,
+          "change_pct": 2.339004
+        },
+        "3_months": {
+          "nav": 57.5139,
+          "change_pct": 15.457828
+        },
+        "6_months": {
+          "nav": 65.5125,
+          "change_pct": 1.361267
+        },
+        "1_year": {
+          "nav": 65.1693,
+          "change_pct": 1.895064
+        },
+        "2_years": {
+          "nav": 60.7065,
+          "change_pct": 4.587674
+        },
+        "3_years": {
+          "nav": 42.2446,
+          "change_pct": 16.271962
+        },
+        "4_years": {
+          "nav": 32.3883,
+          "change_pct": 19.66083
+        },
+        "5_years": {
+          "nav": 31.8422,
+          "change_pct": 15.834686
+        },
+        "since_inception": {
+          "nav": 9.9996,
+          "change_pct": 19.272034
+        }
+      },
+      "benchmark_returns": {
+        "1_month": {
+          "nav": 11035.46,
+          "change_pct": 1.179652
+        },
+        "3_months": {
+          "nav": 10155.99,
+          "change_pct": 9.941424
+        },
+        "6_months": {
+          "nav": 11808.41,
+          "change_pct": -5.443324
+        },
+        "1_year": {
+          "nav": 11592.7,
+          "change_pct": -3.68387
+        },
+        "2_years": {
+          "nav": 11106.33,
+          "change_pct": 0.266654
+        },
+        "3_years": {
+          "nav": 8273.51,
+          "change_pct": 10.509074
+        },
+        "4_years": {
+          "nav": 6812.11,
+          "change_pct": 13.148941
+        },
+        "5_years": {
+          "nav": 6823.58,
+          "change_pct": 10.35049
+        },
+        "since_inception": {
+          "nav": 3426.34,
+          "change_pct": 11.624454
+        }
+      }
+    },
+    "TLC": {
+      "month": "202606",
+      "sfin": "ULIF 017 07/01/08 TLC 110",
+      "official_name": "LARGE CAP EQUITY FUND",
+      "manager": "Mr. Rajeev Tewari",
+      "objective": "The primary investment objective of the Fund is to generate long term capital appreciation from a portfolio that is invested predominantly in equity and equity linked securities.",
+      "type": "Equity",
+      "risk": "High",
+      "aum_cr": 2596.326384,
+      "benchmark": "Nifty 50 - 100%",
+      "asset_mix": {
+        "equity_pct": 98.796207,
+        "debt_pct": null,
+        "mmi_others_pct": 1.203793
+      },
+      "holdings": [
+        {
+          "name": "Reliance Industries Ltd",
+          "pct": 8.372414
+        },
+        {
+          "name": "ICICI Bank Ltd",
+          "pct": 7.415401
+        },
+        {
+          "name": "Bharti Airtel Ltd",
+          "pct": 5.45175
+        },
+        {
+          "name": "Larsen & Toubro Ltd",
+          "pct": 5.041051
+        },
+        {
+          "name": "HDFC Bank Ltd",
+          "pct": 4.844887
+        },
+        {
+          "name": "State Bank of India",
+          "pct": 2.916041
+        },
+        {
+          "name": "NTPC Ltd",
+          "pct": 2.747343
+        },
+        {
+          "name": "Infosys Ltd",
+          "pct": 2.697196
+        },
+        {
+          "name": "Mahindra and Mahindra Ltd",
+          "pct": 2.638423
+        },
+        {
+          "name": "UltraTech Cement Ltd",
+          "pct": 2.470494
+        }
+      ],
+      "sectors": [
+        {
+          "name": "Financial service activities, except insurance and pension funding",
+          "pct": 34.188066
+        },
+        {
+          "name": "Manufacture of coke and refined petroleum products",
+          "pct": 9.541566
+        },
+        {
+          "name": "Telecommunications",
+          "pct": 5.45175
+        },
+        {
+          "name": "Civil engineering",
+          "pct": 5.041051
+        },
+        {
+          "name": "Manufacture of pharmaceuticals,medicinal chemical and botanical products",
+          "pct": 4.805208
+        },
+        {
+          "name": "Computer programming, consultancy and related activities",
+          "pct": 4.187494
+        },
+        {
+          "name": "Information service activities",
+          "pct": 4.065913
+        },
+        {
+          "name": "Electricity, gas, steam and air conditioning supply",
+          "pct": 3.552016
+        },
+        {
+          "name": "Retail trade, except of motor vehicles and motorcycles",
+          "pct": 3.128708
+        },
+        {
+          "name": "Human health activities",
+          "pct": 3.023175
+        },
+        {
+          "name": "Others",
+          "pct": 23.015052
+        }
+      ],
+      "returns": {
+        "1_month": {
+          "nav": 70.8616,
+          "change_pct": 2.869678
+        },
+        "3_months": {
+          "nav": 66.7676,
+          "change_pct": 9.177355
+        },
+        "6_months": {
+          "nav": 76.7646,
+          "change_pct": -5.040735
+        },
+        "1_year": {
+          "nav": 74.4645,
+          "change_pct": -2.107581
+        },
+        "2_years": {
+          "nav": 70.2582,
+          "change_pct": 1.859293
+        },
+        "3_years": {
+          "nav": 50.6709,
+          "change_pct": 12.887686
+        },
+        "4_years": {
+          "nav": 40.7928,
+          "change_pct": 15.618866
+        },
+        "5_years": {
+          "nav": 41.4726,
+          "change_pct": 11.940544
+        },
+        "since_inception": {
+          "nav": 10.0,
+          "change_pct": 11.348455
+        }
+      },
+      "benchmark_returns": {
+        "1_month": {
+          "nav": 23547.75,
+          "change_pct": 1.350447
+        },
+        "3_months": {
+          "nav": 22331.4,
+          "change_pct": 6.870819
+        },
+        "6_months": {
+          "nav": 26129.6,
+          "change_pct": -8.663929
+        },
+        "1_year": {
+          "nav": 25517.05,
+          "change_pct": -6.471359
+        },
+        "2_years": {
+          "nav": 24010.6,
+          "change_pct": -0.302094
+        },
+        "3_years": {
+          "nav": 19189.05,
+          "change_pct": 7.540951
+        },
+        "4_years": {
+          "nav": 15780.25,
+          "change_pct": 10.895852
+        },
+        "5_years": {
+          "nav": 15721.5,
+          "change_pct": 8.706677
+        },
+        "since_inception": {
+          "nav": 6200.1,
+          "change_pct": 7.566528
+        }
+      }
+    },
+    "TSS": {
+      "month": "202606",
+      "sfin": "ULIF 035 16/10/09 TSS 110",
+      "official_name": "SUPER SELECT EQUITY FUND",
+      "manager": "Mr.Nimesh Mistry & Mr. Rajeev Tewari",
+      "objective": "The primary investment objective of the fund is to provide income distribution over a period of medium to long term while at all times emphasizing the importance of capital appreciation. The fund will invest significant amount in equity and equity linked instruments specifically excluding companies predominantly dealing in Gambling, Lotteries/Contests, Animal Produce, Liquor, Tobacco, Entertainment (Films, TV etc) Hotels, Banks and Financial Institutions",
+      "type": "Equity",
+      "risk": "High",
+      "aum_cr": 1195.370039,
+      "benchmark": "Nifty 500 Shariah - 100%",
+      "asset_mix": {
+        "equity_pct": 96.744997,
+        "debt_pct": null,
+        "mmi_others_pct": 3.255003
+      },
+      "holdings": [
+        {
+          "name": "Syrma SGS Technology Ltd",
+          "pct": 7.329626
+        },
+        {
+          "name": "Shyam Metalics and Energy Ltd",
+          "pct": 4.115803
+        },
+        {
+          "name": "CG Power and Industrial Solutions Ltd",
+          "pct": 4.052179
+        },
+        {
+          "name": "UltraTech Cement Ltd",
+          "pct": 3.522934
+        },
+        {
+          "name": "Cummins India Ltd",
+          "pct": 2.994724
+        },
+        {
+          "name": "Tech Mahindra Ltd",
+          "pct": 2.928874
+        },
+        {
+          "name": "Apollo Hospitals Enterprise Ltd",
+          "pct": 2.730388
+        },
+        {
+          "name": "Indus Towers Ltd",
+          "pct": 2.708155
+        },
+        {
+          "name": "Kalpataru Projects International Ltd",
+          "pct": 2.562704
+        },
+        {
+          "name": "Dixon Technologies India Ltd",
+          "pct": 2.554977
+        }
+      ],
+      "sectors": [
+        {
+          "name": "Manufacture of Basic Metals",
+          "pct": 10.218281
+        },
+        {
+          "name": "Computer programming, consultancy and related activities",
+          "pct": 10.09448
+        },
+        {
+          "name": "Manufacture of computer, electronic and optical products",
+          "pct": 9.884602
+        },
+        {
+          "name": "Manufacture of motor vehicles, trailers and semi-trailers",
+          "pct": 8.996335
+        },
+        {
+          "name": "Human health activities",
+          "pct": 8.03549
+        },
+        {
+          "name": "Manufacture of pharmaceuticals,medicinal chemical and botanical products",
+          "pct": 6.574666
+        },
+        {
+          "name": "Manufacture of electrical equipment",
+          "pct": 6.028671
+        },
+        {
+          "name": "Manufacture of machinery and equipment n.e.c.",
+          "pct": 4.369155
+        },
+        {
+          "name": "Manufacture of chemicals and chemical products",
+          "pct": 4.240991
+        },
+        {
+          "name": "Civil engineering",
+          "pct": 3.638835
+        },
+        {
+          "name": "Others",
+          "pct": 27.918494
+        }
+      ],
+      "returns": {
+        "1_month": {
+          "nav": 78.0318,
+          "change_pct": 2.336868
+        },
+        "3_months": {
+          "nav": 70.6599,
+          "change_pct": 13.013605
+        },
+        "6_months": {
+          "nav": 79.9652,
+          "change_pct": -0.137435
+        },
+        "1_year": {
+          "nav": 79.2689,
+          "change_pct": 0.73976
+        },
+        "2_years": {
+          "nav": 79.1299,
+          "change_pct": 0.457315
+        },
+        "3_years": {
+          "nav": 58.5536,
+          "change_pct": 10.896213
+        },
+        "4_years": {
+          "nav": 47.2496,
+          "change_pct": 14.018783
+        },
+        "5_years": {
+          "nav": 49.8139,
+          "change_pct": 9.898215
+        },
+        "since_inception": {
+          "nav": 10.0,
+          "change_pct": 13.246746
+        }
+      },
+      "benchmark_returns": {
+        "1_month": {
+          "nav": 6915.2,
+          "change_pct": -1.630466
+        },
+        "3_months": {
+          "nav": 6215.15,
+          "change_pct": 9.44949
+        },
+        "6_months": {
+          "nav": 7160.75,
+          "change_pct": -5.003666
+        },
+        "1_year": {
+          "nav": 7228.0,
+          "change_pct": -5.887521
+        },
+        "2_years": {
+          "nav": 7385.1,
+          "change_pct": -4.025803
+        },
+        "3_years": {
+          "nav": 5389.48,
+          "change_pct": 8.070252
+        },
+        "4_years": {
+          "nav": 4662.15,
+          "change_pct": 9.905589
+        },
+        "5_years": {
+          "nav": 4857.44,
+          "change_pct": 6.967435
+        },
+        "since_inception": {
+          "nav": 1208.56,
+          "change_pct": 10.899675
+        }
+      }
+    },
+    "WLA": {
+      "month": "202606",
+      "sfin": "ULIF 010 04/01/07 WLA 110",
+      "official_name": "WHOLE LIFE AGGRESSIVE GROWTH FUND",
+      "manager": "Mr. Nimesh Mistry & Mr. Nitin Bansal & Mr. Pankaj Agarwal",
+      "objective": "The primary investment objective of the fund is to maximize the returns with medium to high risk.",
+      "type": "Hybrid",
+      "risk": "Medium",
+      "aum_cr": 912.104257,
+      "benchmark": "Nifty 50 - 65%, CRISIL Composite Bond Fund Index -35%",
+      "asset_mix": {
+        "equity_pct": 68.860926,
+        "debt_pct": 29.150788,
+        "mmi_others_pct": 1.988286
+      },
+      "holdings": [
+        {
+          "name": "BSE Ltd",
+          "pct": 5.098194
+        },
+        {
+          "name": "6.01% Gsec 21-07-2030",
+          "pct": 4.879396
+        },
+        {
+          "name": "Radico Khaitan Ltd",
+          "pct": 4.325712
+        },
+        {
+          "name": "6.48% Gsec 06-10-2035",
+          "pct": 4.26391
+        },
+        {
+          "name": "6.68% Gsec 07-07-2040",
+          "pct": 3.352576
+        },
+        {
+          "name": "Bharti Airtel Ltd",
+          "pct": 3.181056
+        },
+        {
+          "name": "6.90% Gsec 15-04-2065",
+          "pct": 2.751604
+        },
+        {
+          "name": "7.32% Gsec 13-11-2030",
+          "pct": 2.689897
+        },
+        {
+          "name": "Ajanta Pharma Ltd",
+          "pct": 2.676155
+        },
+        {
+          "name": "K.P.R. Mill Ltd",
+          "pct": 2.17462
+        }
+      ],
+      "sectors": [
+        {
+          "name": "Central Government Securities",
+          "pct": 25.047831
+        },
+        {
+          "name": "Financial service activities, except insurance and pension funding",
+          "pct": 10.231717
+        },
+        {
+          "name": "Other financial activities",
+          "pct": 5.792794
+        },
+        {
+          "name": "Manufacture of pharmaceuticals,medicinal chemical and botanical products",
+          "pct": 5.780698
+        },
+        {
+          "name": "Manufacture of machinery and equipment n.e.c.",
+          "pct": 4.863356
+        },
+        {
+          "name": "Manufacture of Basic Metals",
+          "pct": 4.550839
+        },
+        {
+          "name": "Manufacture of beverages",
+          "pct": 4.325712
+        },
+        {
+          "name": "Computer programming, consultancy and related activities",
+          "pct": 4.321615
+        },
+        {
+          "name": "Telecommunications",
+          "pct": 3.864117
+        },
+        {
+          "name": "Human health activities",
+          "pct": 3.328075
+        },
+        {
+          "name": "Others",
+          "pct": 27.893247
+        }
+      ],
+      "returns": {
+        "1_month": {
+          "nav": 100.7833,
+          "change_pct": 2.081396
+        },
+        "3_months": {
+          "nav": 94.0361,
+          "change_pct": 9.405856
+        },
+        "6_months": {
+          "nav": 103.1956,
+          "change_pct": -0.304858
+        },
+        "1_year": {
+          "nav": 100.6866,
+          "change_pct": 2.179436
+        },
+        "2_years": {
+          "nav": 84.8426,
+          "change_pct": 10.11858
+        },
+        "3_years": {
+          "nav": 63.6824,
+          "change_pct": 17.337974
+        },
+        "4_years": {
+          "nav": 53.2862,
+          "change_pct": 17.87728
+        },
+        "5_years": {
+          "nav": 53.9701,
+          "change_pct": 13.772262
+        },
+        "since_inception": {
+          "nav": 10.0,
+          "change_pct": 12.713698
+        }
+      },
+      "benchmark_returns": {
+        "1_month": {
+          "nav": null,
+          "change_pct": 1.708518
+        },
+        "3_months": {
+          "nav": null,
+          "change_pct": 5.694438
+        },
+        "6_months": {
+          "nav": null,
+          "change_pct": -4.623591
+        },
+        "1_year": {
+          "nav": null,
+          "change_pct": -2.47557
+        },
+        "2_years": {
+          "nav": null,
+          "change_pct": 2.263932
+        },
+        "3_years": {
+          "nav": null,
+          "change_pct": 7.430945
+        },
+        "4_years": {
+          "nav": null,
+          "change_pct": 9.718899
+        },
+        "5_years": {
+          "nav": null,
+          "change_pct": 7.827591
+        },
+        "since_inception": {
+          "nav": null,
+          "change_pct": 8.798824
+        }
+      }
+    },
+    "WLE": {
+      "month": "202606",
+      "sfin": "ULIF 009 04/01/07 WLE 110",
+      "official_name": "WHOLE LIFE MID CAP EQUITY FUND",
+      "manager": "Mr. Nitin Bansal & Mr. Shashank Khetawat",
+      "objective": "The primary investment objective of the Fund is to generate long term capital appreciation from a portfolio that is invested predominantly in Mid Cap Equity and Mid Cap Equity linked securities.Investments in large cap equity shares will be restricted to not more than 20%.",
+      "type": "Equity",
+      "risk": "High",
+      "aum_cr": 12315.581407,
+      "benchmark": "Nifty Midcap 100",
+      "asset_mix": {
+        "equity_pct": 95.117356,
+        "debt_pct": null,
+        "mmi_others_pct": 4.882644
+      },
+      "holdings": [
+        {
+          "name": "Radico Khaitan Ltd",
+          "pct": 4.121025
+        },
+        {
+          "name": "ETERNAL LIMITED",
+          "pct": 4.077754
+        },
+        {
+          "name": "BSE Ltd",
+          "pct": 3.984513
+        },
+        {
+          "name": "PB Fintech Ltd",
+          "pct": 3.62601
+        },
+        {
+          "name": "One97 Communications Ltd",
+          "pct": 3.147752
+        },
+        {
+          "name": "The Federal Bank Ltd",
+          "pct": 2.918082
+        },
+        {
+          "name": "IDFC First Bank Ltd",
+          "pct": 2.807179
+        },
+        {
+          "name": "Dixon Technologies India Ltd",
+          "pct": 2.690231
+        },
+        {
+          "name": "The Indian Hotels Company Ltd",
+          "pct": 2.637591
+        },
+        {
+          "name": "Bharti Airtel Ltd",
+          "pct": 2.395539
+        }
+      ],
+      "sectors": [
+        {
+          "name": "Financial service activities, except insurance and pension funding",
+          "pct": 15.785293
+        },
+        {
+          "name": "Information service activities",
+          "pct": 8.173464
+        },
+        {
+          "name": "Manufacture of electrical equipment",
+          "pct": 5.336811
+        },
+        {
+          "name": "Manufacture of beverages",
+          "pct": 5.04273
+        },
+        {
+          "name": "Computer programming, consultancy and related activities",
+          "pct": 4.651143
+        },
+        {
+          "name": "Warehousing and support activities for transportation",
+          "pct": 4.495148
+        },
+        {
+          "name": "Manufacture of motor vehicles, trailers and semi-trailers",
+          "pct": 4.062742
+        },
+        {
+          "name": "Other financial activities",
+          "pct": 3.984513
+        },
+        {
+          "name": "Manufacture of computer, electronic and optical products",
+          "pct": 3.892789
+        },
+        {
+          "name": "Manufacture of machinery and equipment n.e.c.",
+          "pct": 3.782435
+        },
+        {
+          "name": "Others",
+          "pct": 40.792933
+        }
+      ],
+      "returns": {
+        "1_month": {
+          "nav": 169.3866,
+          "change_pct": 2.93264
+        },
+        "3_months": {
+          "nav": 145.1253,
+          "change_pct": 20.140389
+        },
+        "6_months": {
+          "nav": 164.7212,
+          "change_pct": 5.848003
+        },
+        "1_year": {
+          "nav": 161.2913,
+          "change_pct": 8.098887
+        },
+        "2_years": {
+          "nav": 144.9261,
+          "change_pct": 9.683874
+        },
+        "3_years": {
+          "nav": 97.1503,
+          "change_pct": 21.524173
+        },
+        "4_years": {
+          "nav": 75.1492,
+          "change_pct": 23.417558
+        },
+        "5_years": {
+          "nav": 78.4127,
+          "change_pct": 17.330022
+        },
+        "since_inception": {
+          "nav": 10.0,
+          "change_pct": 15.803419
+        }
+      },
+      "benchmark_returns": {
+        "1_month": {
+          "nav": 61723.8,
+          "change_pct": 0.119727
+        },
+        "3_months": {
+          "nav": 52650.0,
+          "change_pct": 17.374549
+        },
+        "6_months": {
+          "nav": 60484.5,
+          "change_pct": 2.171135
+        },
+        "1_year": {
+          "nav": 59741.2,
+          "change_pct": 3.442348
+        },
+        "2_years": {
+          "nav": 55736.9,
+          "change_pct": 5.296698
+        },
+        "3_years": {
+          "nav": 35754.35,
+          "change_pct": 20.009182
+        },
+        "4_years": {
+          "nav": 26452.75,
+          "change_pct": 23.630428
+        },
+        "5_years": {
+          "nav": 26970.75,
+          "change_pct": 18.036373
+        },
+        "since_inception": {
+          "nav": 5066.3,
+          "change_pct": 13.699266
+        }
+      }
+    },
+    "WLF": {
+      "month": "202606",
+      "sfin": "ULIF 013 04/01/07 WLF 110",
+      "official_name": "WHOLE LIFE SHORT TERM FIXED INCOME FUND",
+      "manager": "Mr. Pankaj Agarwal",
+      "objective": "The primary investment objective of the Fund is to generate stable returns by investing in fixed income securities having shorter maturity periods. Under normal circumstances, the average maturity of the Fund may be in the range of 1-3 years.",
+      "type": "Debt",
+      "risk": "Medium",
+      "aum_cr": 306.396132,
+      "benchmark": "CRISIL Short Term Bond Fund Index - 100%",
+      "asset_mix": {
+        "equity_pct": null,
+        "debt_pct": 87.585639,
+        "mmi_others_pct": 12.414361
+      },
+      "holdings": [
+        {
+          "name": "7.06% Gsec 10-04-2028",
+          "pct": 8.565621
+        },
+        {
+          "name": "0.00% Gsec 31-Dec-2027",
+          "pct": 7.231502
+        },
+        {
+          "name": "7.02% Bajaj Housing Finance Ltd. 26-05-2028",
+          "pct": 6.392042
+        },
+        {
+          "name": "8.10% Bajaj Finance Ltd. 08-01-2027",
+          "pct": 6.321322
+        },
+        {
+          "name": "7.18% Sundaram Finance Ltd 16-05-2028",
+          "pct": 6.285425
+        },
+        {
+          "name": "8.75% Bharti Telecom Ltd 05-11-2028",
+          "pct": 5.825634
+        },
+        {
+          "name": "7.59% PFC Ltd. 17-01-2028",
+          "pct": 4.920345
+        },
+        {
+          "name": "7.44% REC Ltd. 29-02-2028",
+          "pct": 4.756851
+        },
+        {
+          "name": "7.48% NABARD 15-09-2028",
+          "pct": 4.736915
+        },
+        {
+          "name": "7.77% HDFC Bank Ltd 28-06-2027",
+          "pct": 4.689253
+        }
+      ],
+      "sectors": [
+        {
+          "name": "Financial service activities, except insurance and pension funding",
+          "pct": 63.529322
+        },
+        {
+          "name": "Central Government Securities",
+          "pct": 25.106028
+        },
+        {
+          "name": "Telecommunications",
+          "pct": 5.825634
+        },
+        {
+          "name": "Electricity, gas, steam and air conditioning supply",
+          "pct": 0.979206
+        },
+        {
+          "name": "Others",
+          "pct": 4.55981
+        }
+      ],
+      "returns": {
+        "1_month": {
+          "nav": 36.7695,
+          "change_pct": 1.226288
+        },
+        "3_months": {
+          "nav": 36.4912,
+          "change_pct": 1.99829
+        },
+        "6_months": {
+          "nav": 36.257,
+          "change_pct": 2.657142
+        },
+        "1_year": {
+          "nav": 35.2663,
+          "change_pct": 5.540984
+        },
+        "2_years": {
+          "nav": 32.561,
+          "change_pct": 6.915741
+        },
+        "3_years": {
+          "nav": 30.5366,
+          "change_pct": 6.820216
+        },
+        "4_years": {
+          "nav": 28.7754,
+          "change_pct": 6.644857
+        },
+        "5_years": {
+          "nav": 28.0295,
+          "change_pct": 5.835932
+        },
+        "since_inception": {
+          "nav": 10.0,
+          "change_pct": 7.012417
+        }
+      },
+      "benchmark_returns": {
+        "1_month": {
+          "nav": 5308.5829,
+          "change_pct": 1.443178
+        },
+        "3_months": {
+          "nav": 5271.55,
+          "change_pct": 2.155821
+        },
+        "6_months": {
+          "nav": 5236.4576,
+          "change_pct": 2.840424
+        },
+        "1_year": {
+          "nav": 5088.9771,
+          "change_pct": 5.820779
+        },
+        "2_years": {
+          "nav": 4673.5443,
+          "change_pct": 7.343943
+        },
+        "3_years": {
+          "nav": 4355.085,
+          "change_pct": 7.333413
+        },
+        "4_years": {
+          "nav": 4062.9605,
+          "change_pct": 7.297527
+        },
+        "5_years": {
+          "nav": 3950.0333,
+          "change_pct": 6.394735
+        },
+        "since_inception": {
+          "nav": 1286.08,
+          "change_pct": 7.664373
+        }
+      }
+    },
+    "WLI": {
+      "month": "202606",
+      "sfin": "ULIF 012 04/01/07 WLI 110",
+      "official_name": "WHOLE LIFE INCOME FUND",
+      "manager": "Mr. Pankaj Agarwal",
+      "objective": "The primary investment objective of the Fund is to generate income through investing in a range of debt and money market instruments of various maturities with a view to maximizing the optimal balance between yield, safety and liquidity. The Fund will have no investments in equity or equity linked instruments at any point in time",
+      "type": "Debt",
+      "risk": "Medium",
+      "aum_cr": 836.906869,
+      "benchmark": "CRISIL Composite Bond Fund Index - 100%",
+      "asset_mix": {
+        "equity_pct": null,
+        "debt_pct": 84.427821,
+        "mmi_others_pct": 15.572179
+      },
+      "holdings": [
+        {
+          "name": "7.24% Gsec 18-08-2055",
+          "pct": 11.974698
+        },
+        {
+          "name": "6.90% Gsec 15-04-2065",
+          "pct": 8.469257
+        },
+        {
+          "name": "6.96% ICICI Bank Ltd 17-12-2031",
+          "pct": 4.195238
+        },
+        {
+          "name": "8.00% HDFC Bank Ltd 27-07-2032",
+          "pct": 4.155876
+        },
+        {
+          "name": "7.51% State Bank of India 06-12-2032",
+          "pct": 4.122824
+        },
+        {
+          "name": "7.48% NABARD 15-09-2028",
+          "pct": 4.121751
+        },
+        {
+          "name": "6.48% Gsec 06-10-2035",
+          "pct": 3.038581
+        },
+        {
+          "name": "7.43% Gsec 19-01-2076",
+          "pct": 2.781745
+        },
+        {
+          "name": "7.80% HDFC Bank Ltd 06-09-2032",
+          "pct": 2.708674
+        },
+        {
+          "name": "0.00% Gsec 25-May-2030",
+          "pct": 2.368875
+        }
+      ],
+      "sectors": [
+        {
+          "name": "Central Government Securities",
+          "pct": 45.216993
+        },
+        {
+          "name": "Financial service activities, except insurance and pension funding",
+          "pct": 34.210186
+        },
+        {
+          "name": "Infrastructure - Long Term Bonds - BFSI",
+          "pct": 4.195238
+        },
+        {
+          "name": "State Government Securities",
+          "pct": 1.266775
+        },
+        {
+          "name": "Telecommunications",
+          "pct": 0.862981
+        },
+        {
+          "name": "Others",
+          "pct": 14.247827
+        }
+      ],
+      "returns": {
+        "1_month": {
+          "nav": 41.3424,
+          "change_pct": 2.707148
+        },
+        "3_months": {
+          "nav": 40.8537,
+          "change_pct": 3.935751
+        },
+        "6_months": {
+          "nav": 41.1887,
+          "change_pct": 3.090411
+        },
+        "1_year": {
+          "nav": 40.5375,
+          "change_pct": 4.746469
+        },
+        "2_years": {
+          "nav": 37.0541,
+          "change_pct": 7.048366
+        },
+        "3_years": {
+          "nav": 34.4212,
+          "change_pct": 7.248226
+        },
+        "4_years": {
+          "nav": 31.9873,
+          "change_pct": 7.338295
+        },
+        "5_years": {
+          "nav": 31.3995,
+          "change_pct": 6.222061
+        },
+        "since_inception": {
+          "nav": 10.0,
+          "change_pct": 7.735105
+        }
+      },
+      "benchmark_returns": {
+        "1_month": {
+          "nav": 5134.1583,
+          "change_pct": 2.373505
+        },
+        "3_months": {
+          "nav": 5077.8006,
+          "change_pct": 3.509732
+        },
+        "6_months": {
+          "nav": 5108.8873,
+          "change_pct": 2.879893
+        },
+        "1_year": {
+          "nav": 5008.346,
+          "change_pct": 4.945182
+        },
+        "2_years": {
+          "nav": 4588.2871,
+          "change_pct": 7.029407
+        },
+        "3_years": {
+          "nav": 4263.3268,
+          "change_pct": 7.226649
+        },
+        "4_years": {
+          "nav": 3930.8609,
+          "change_pct": 7.53313
+        },
+        "5_years": {
+          "nav": 3891.6739,
+          "change_pct": 6.195002
+        },
+        "since_inception": {
+          "nav": 1301.73,
+          "change_pct": 7.456054
+        }
+      }
+    },
+    "WLS": {
+      "month": "202606",
+      "sfin": "ULIF 011 04/01/07 WLS 110",
+      "official_name": "WHOLE LIFE STABLE GROWTH FUND",
+      "manager": "Mr. Nimesh Mistry & Mr. Nitin Bansal &Mr. Pankaj Agarwal",
+      "objective": "The primary investment objective of the fund is to provide reasonable returns with low to medium risk",
+      "type": "Hybrid",
+      "risk": "Medium",
+      "aum_cr": 292.812413,
+      "benchmark": "Nifty 50 - 40%, CRISIL Composite Bond Fund Index - 60%",
+      "asset_mix": {
+        "equity_pct": 43.099177,
+        "debt_pct": 53.509155,
+        "mmi_others_pct": 3.391668
+      },
+      "holdings": [
+        {
+          "name": "7.32% Gsec 13-11-2030",
+          "pct": 6.838226
+        },
+        {
+          "name": "6.48% Gsec 06-10-2035",
+          "pct": 6.482329
+        },
+        {
+          "name": "6.68% Gsec 07-07-2040",
+          "pct": 5.892474
+        },
+        {
+          "name": "6.01% Gsec 21-07-2030",
+          "pct": 5.066404
+        },
+        {
+          "name": "7.06% Gsec 10-04-2028",
+          "pct": 4.962999
+        },
+        {
+          "name": "6.90% Gsec 15-04-2065",
+          "pct": 4.350211
+        },
+        {
+          "name": "0.00% Gsec 25-Nov-2030",
+          "pct": 3.546938
+        },
+        {
+          "name": "BSE Ltd",
+          "pct": 3.197698
+        },
+        {
+          "name": "7.10% Gsec 08-04-2034",
+          "pct": 3.038065
+        },
+        {
+          "name": "Radico Khaitan Ltd",
+          "pct": 2.290665
+        }
+      ],
+      "sectors": [
+        {
+          "name": "Central Government Securities",
+          "pct": 46.212414
+        },
+        {
+          "name": "Financial service activities, except insurance and pension funding",
+          "pct": 7.561606
+        },
+        {
+          "name": "State Government Securities",
+          "pct": 3.981847
+        },
+        {
+          "name": "Manufacture of pharmaceuticals,medicinal chemical and botanical products",
+          "pct": 3.699719
+        },
+        {
+          "name": "Computer programming, consultancy and related activities",
+          "pct": 3.664079
+        },
+        {
+          "name": "Other financial activities",
+          "pct": 3.647096
+        },
+        {
+          "name": "Manufacture of machinery and equipment n.e.c.",
+          "pct": 3.219952
+        },
+        {
+          "name": "Manufacture of Basic Metals",
+          "pct": 3.139726
+        },
+        {
+          "name": "Telecommunications",
+          "pct": 2.377103
+        },
+        {
+          "name": "Manufacture of beverages",
+          "pct": 2.290665
+        },
+        {
+          "name": "Others",
+          "pct": 20.205793
+        }
+      ],
+      "returns": {
+        "1_month": {
+          "nav": 65.928,
+          "change_pct": 1.803179
+        },
+        "3_months": {
+          "nav": 62.9399,
+          "change_pct": 6.636331
+        },
+        "6_months": {
+          "nav": 67.0576,
+          "change_pct": 0.088282
+        },
+        "1_year": {
+          "nav": 65.853,
+          "change_pct": 1.919123
+        },
+        "2_years": {
+          "nav": 57.5211,
+          "change_pct": 8.019467
+        },
+        "3_years": {
+          "nav": 46.3154,
+          "change_pct": 13.162346
+        },
+        "4_years": {
+          "nav": 40.5999,
+          "change_pct": 13.390474
+        },
+        "5_years": {
+          "nav": 40.3497,
+          "change_pct": 10.71289
+        },
+        "since_inception": {
+          "nav": 10.0,
+          "change_pct": 10.277817
+        }
+      },
+      "benchmark_returns": {
+        "1_month": {
+          "nav": null,
+          "change_pct": 1.964282
+        },
+        "3_months": {
+          "nav": null,
+          "change_pct": 4.854167
+        },
+        "6_months": {
+          "nav": null,
+          "change_pct": -1.737636
+        },
+        "1_year": {
+          "nav": null,
+          "change_pct": 0.378565
+        },
+        "2_years": {
+          "nav": null,
+          "change_pct": 4.096807
+        },
+        "3_years": {
+          "nav": null,
+          "change_pct": 7.35237
+        },
+        "4_years": {
+          "nav": null,
+          "change_pct": 8.878219
+        },
+        "5_years": {
+          "nav": null,
+          "change_pct": 7.199672
+        },
+        "since_inception": {
+          "nav": null,
+          "change_pct": 8.253684
+        }
+      }
+    },
+    "EOF": {
+      "month": "202606",
+      "sfin": "ULIF 064 12/09/22 EOF 110",
+      "official_name": "EMERGING OPPORTUNITIES FUND",
+      "manager": "Mr. Nitin Bansal & Mr. Shashank Khetawat & Mr. Pankaj Agarwal",
+      "objective": "The primary investment objective of the Fund is to generate capital appreciation in the long term by investing in a portfolio of stocks that offer opportunities in the Mid Cap space and emerging leaders in the new age sectors offering significant long-term wealth creation. The fund can invest up to 30% of the portfolio in equity and equity related instruments falling outside the mid\u0002cap range.",
+      "type": "Equity",
+      "risk": "High",
+      "aum_cr": 3349.142699,
+      "benchmark": "Nifty Midcap 100 - 95%, CRISIL Liquid Fund Index - 5%",
+      "asset_mix": {
+        "equity_pct": 95.26201,
+        "debt_pct": null,
+        "mmi_others_pct": 4.73799
+      },
+      "holdings": [
+        {
+          "name": "BSE Ltd",
+          "pct": 3.960842
+        },
+        {
+          "name": "IndusInd Bank Ltd",
+          "pct": 3.898211
+        },
+        {
+          "name": "ETERNAL LIMITED",
+          "pct": 3.772643
+        },
+        {
+          "name": "PB Fintech Ltd",
+          "pct": 3.494684
+        },
+        {
+          "name": "Hindustan Petroleum Corporation Ltd",
+          "pct": 3.37417
+        },
+        {
+          "name": "One97 Communications Ltd",
+          "pct": 2.903891
+        },
+        {
+          "name": "Dixon Technologies India Ltd",
+          "pct": 2.813591
+        },
+        {
+          "name": "Ashok Leyland Ltd",
+          "pct": 2.638296
+        },
+        {
+          "name": "Prestige Estates Projects Ltd",
+          "pct": 2.532255
+        },
+        {
+          "name": "The Federal Bank Ltd",
+          "pct": 2.395011
+        }
+      ],
+      "sectors": [
+        {
+          "name": "Financial service activities, except insurance and pension funding",
+          "pct": 15.336688
+        },
+        {
+          "name": "Information service activities",
+          "pct": 6.676534
+        },
+        {
+          "name": "Manufacture of pharmaceuticals,medicinal chemical and botanical products",
+          "pct": 6.296083
+        },
+        {
+          "name": "Warehousing and support activities for transportation",
+          "pct": 5.646548
+        },
+        {
+          "name": "Manufacture of electrical equipment",
+          "pct": 4.962182
+        },
+        {
+          "name": "Manufacture of computer, electronic and optical products",
+          "pct": 4.915319
+        },
+        {
+          "name": "Manufacture of motor vehicles, trailers and semi-trailers",
+          "pct": 4.378477
+        },
+        {
+          "name": "Manufacture of Basic Metals",
+          "pct": 4.248002
+        },
+        {
+          "name": "Computer programming, consultancy and related activities",
+          "pct": 4.062382
+        },
+        {
+          "name": "Other financial activities",
+          "pct": 3.960842
+        },
+        {
+          "name": "Others",
+          "pct": 39.516944
+        }
+      ],
+      "returns": {
+        "1_month": {
+          "nav": 20.3769,
+          "change_pct": 2.294755
+        },
+        "3_months": {
+          "nav": 17.8439,
+          "change_pct": 16.815831
+        },
+        "6_months": {
+          "nav": 19.9489,
+          "change_pct": 4.489471
+        },
+        "1_year": {
+          "nav": 19.8946,
+          "change_pct": 4.774662
+        },
+        "2_years": {
+          "nav": 18.4298,
+          "change_pct": 6.349494
+        },
+        "3_years": {
+          "nav": 11.4123,
+          "change_pct": 22.237962
+        },
+        "4_years": {
+          "nav": null,
+          "change_pct": null
+        },
+        "5_years": {
+          "nav": null,
+          "change_pct": null
+        },
+        "since_inception": {
+          "nav": 10.0,
+          "change_pct": 23.360497
+        }
+      },
+      "benchmark_returns": {
+        "1_month": {
+          "nav": null,
+          "change_pct": 0.143166
+        },
+        "3_months": {
+          "nav": null,
+          "change_pct": 16.586017
+        },
+        "6_months": {
+          "nav": null,
+          "change_pct": 2.215106
+        },
+        "1_year": {
+          "nav": null,
+          "change_pct": 3.571083
+        },
+        "2_years": {
+          "nav": null,
+          "change_pct": 5.359554
+        },
+        "3_years": {
+          "nav": null,
+          "change_pct": 19.349524
+        },
+        "4_years": {
+          "nav": null,
+          "change_pct": null
+        },
+        "5_years": {
+          "nav": null,
+          "change_pct": null
+        },
+        "since_inception": {
+          "nav": null,
+          "change_pct": 20.5121
+        }
+      }
+    },
+    "ESG": {
+      "month": "202606",
+      "sfin": "ULIF 065 12/09/22 ESG 110",
+      "official_name": "SUSTAINABLE EQUITY FUND",
+      "manager": "Mr. Rajeev Tewari & Mr. Pankaj Agarwal",
+      "objective": "To focus on investing in select companies from the investment universe, which conduct business in socially and environmentally responsible manner while maintaining governance standards.",
+      "type": "Equity",
+      "risk": "High",
+      "aum_cr": 117.252595,
+      "benchmark": "NIFTY 100 ESG Index",
+      "asset_mix": {
+        "equity_pct": 94.967132,
+        "debt_pct": null,
+        "mmi_others_pct": 5.032868
+      },
+      "holdings": [
+        {
+          "name": "ICICI Bank Ltd",
+          "pct": 5.336479
+        },
+        {
+          "name": "HDFC Bank Ltd",
+          "pct": 4.494418
+        },
+        {
+          "name": "Bharti Airtel Ltd",
+          "pct": 3.962955
+        },
+        {
+          "name": "ETERNAL LIMITED",
+          "pct": 3.528433
+        },
+        {
+          "name": "Larsen & Toubro Ltd",
+          "pct": 2.975054
+        },
+        {
+          "name": "BSE Ltd",
+          "pct": 2.967133
+        },
+        {
+          "name": "Reliance Industries Ltd",
+          "pct": 2.624269
+        },
+        {
+          "name": "Power Grid Corporation of India Ltd",
+          "pct": 2.527979
+        },
+        {
+          "name": "Finolex Cables Ltd",
+          "pct": 2.493335
+        },
+        {
+          "name": "Infosys Ltd",
+          "pct": 2.470443
+        }
+      ],
+      "sectors": [
+        {
+          "name": "Financial service activities, except insurance and pension funding",
+          "pct": 13.477581
+        },
+        {
+          "name": "Computer programming, consultancy and related activities",
+          "pct": 7.252993
+        },
+        {
+          "name": "Manufacture of electrical equipment",
+          "pct": 6.700675
+        },
+        {
+          "name": "Manufacture of other transport equipment",
+          "pct": 5.834057
+        },
+        {
+          "name": "Electricity, gas, steam and air conditioning supply",
+          "pct": 5.574234
+        },
+        {
+          "name": "Manufacture of pharmaceuticals,medicinal chemical and botanical products",
+          "pct": 4.940236
+        },
+        {
+          "name": "Information service activities",
+          "pct": 4.671572
+        },
+        {
+          "name": "Manufacture of coke and refined petroleum products",
+          "pct": 4.306321
+        },
+        {
+          "name": "Telecommunications",
+          "pct": 3.962955
+        },
+        {
+          "name": "Civil engineering",
+          "pct": 3.559348
+        },
+        {
+          "name": "Others",
+          "pct": 39.720027
+        }
+      ],
+      "returns": {
+        "1_month": {
+          "nav": 15.3316,
+          "change_pct": 2.276997
+        },
+        "3_months": {
+          "nav": 14.0685,
+          "change_pct": 11.459644
+        },
+        "6_months": {
+          "nav": 16.176,
+          "change_pct": -3.061944
+        },
+        "1_year": {
+          "nav": 16.2115,
+          "change_pct": -3.274219
+        },
+        "2_years": {
+          "nav": 15.364,
+          "change_pct": 1.025399
+        },
+        "3_years": {
+          "nav": 11.2183,
+          "change_pct": 11.809696
+        },
+        "4_years": {
+          "nav": null,
+          "change_pct": null
+        },
+        "5_years": {
+          "nav": null,
+          "change_pct": null
+        },
+        "since_inception": {
+          "nav": 10.0,
+          "change_pct": 14.83505
+        }
+      },
+      "benchmark_returns": {
+        "1_month": {
+          "nav": 4821.35,
+          "change_pct": 0.474971
+        },
+        "3_months": {
+          "nav": 4444.8,
+          "change_pct": 8.986906
+        },
+        "6_months": {
+          "nav": 5181.35,
+          "change_pct": -6.506026
+        },
+        "1_year": {
+          "nav": 5014.2,
+          "change_pct": -3.389374
+        },
+        "2_years": {
+          "nav": 4747.1,
+          "change_pct": 1.018074
+        },
+        "3_years": {
+          "nav": 3614.85,
+          "change_pct": 10.25004
+        },
+        "4_years": {
+          "nav": null,
+          "change_pct": null
+        },
+        "5_years": {
+          "nav": null,
+          "change_pct": null
+        },
+        "since_inception": {
+          "nav": 3202.9,
+          "change_pct": 13.567011
+        }
+      }
+    },
+    "DAF": {
+      "month": "202606",
+      "sfin": "ULIF 066 12/09/22 DAF 110",
+      "official_name": "DYNAMIC ADVANTAGE FUND",
+      "manager": "Mr. Nimesh Mistry & Mr. Pankaj Agarwal",
+      "objective": "The primary investment objective of the Fund is to generate stable returns by investing in fixed income securities having shorter maturity periods. Under normal circumstances, the average maturity of the Fund may be in the range of 1-3 years.",
+      "type": "Hybrid",
+      "risk": "Medium",
+      "aum_cr": 348.003457,
+      "benchmark": "Nifty 50 - 50%, CRISIL Composite Bond Fund Index - 50%",
+      "asset_mix": {
+        "equity_pct": 59.021763,
+        "debt_pct": 34.600589,
+        "mmi_others_pct": 6.377647
+      },
+      "holdings": [
+        {
+          "name": "6.01% Gsec 21-07-2030",
+          "pct": 5.683875
+        },
+        {
+          "name": "6.48% Gsec 06-10-2035",
+          "pct": 4.42072
+        },
+        {
+          "name": "7.18% Gsec 14-08-2033",
+          "pct": 3.786296
+        },
+        {
+          "name": "6.90% Gsec 15-04-2065",
+          "pct": 3.079725
+        },
+        {
+          "name": "7.06% Gsec 10-04-2028",
+          "pct": 3.017705
+        },
+        {
+          "name": "BSE Ltd",
+          "pct": 2.590704
+        },
+        {
+          "name": "7.18% Gsec 24-07-2037",
+          "pct": 2.195327
+        },
+        {
+          "name": "7.24% Gsec 18-08-2055",
+          "pct": 2.137502
+        },
+        {
+          "name": "6.79% Gsec 07-10-2034",
+          "pct": 2.010054
+        },
+        {
+          "name": "Mahindra and Mahindra Ltd",
+          "pct": 1.879357
+        }
+      ],
+      "sectors": [
+        {
+          "name": "Central Government Securities",
+          "pct": 33.535886
+        },
+        {
+          "name": "Financial service activities, except insurance and pension funding",
+          "pct": 10.58907
+        },
+        {
+          "name": "Manufacture of machinery and equipment n.e.c.",
+          "pct": 5.50639
+        },
+        {
+          "name": "Manufacture of pharmaceuticals,medicinal chemical and botanical products",
+          "pct": 4.914827
+        },
+        {
+          "name": "Computer programming, consultancy and related activities",
+          "pct": 4.20787
+        },
+        {
+          "name": "Manufacture of motor vehicles, trailers and semi-trailers",
+          "pct": 4.010801
+        },
+        {
+          "name": "Telecommunications",
+          "pct": 3.451206
+        },
+        {
+          "name": "Other financial activities",
+          "pct": 3.192217
+        },
+        {
+          "name": "Manufacture of Basic Metals",
+          "pct": 3.121128
+        },
+        {
+          "name": "Information service activities",
+          "pct": 2.753381
+        },
+        {
+          "name": "Others",
+          "pct": 24.717223
+        }
+      ],
+      "returns": {
+        "1_month": {
+          "nav": 15.9791,
+          "change_pct": 1.190931
+        },
+        "3_months": {
+          "nav": 14.9795,
+          "change_pct": 7.943523
+        },
+        "6_months": {
+          "nav": 16.517,
+          "change_pct": -2.104498
+        },
+        "1_year": {
+          "nav": 16.2701,
+          "change_pct": -0.618927
+        },
+        "2_years": {
+          "nav": 14.3868,
+          "change_pct": 6.014397
+        },
+        "3_years": {
+          "nav": 10.8487,
+          "change_pct": 14.227867
+        },
+        "4_years": {
+          "nav": null,
+          "change_pct": null
+        },
+        "5_years": {
+          "nav": null,
+          "change_pct": null
+        },
+        "since_inception": {
+          "nav": 10.0,
+          "change_pct": 15.923887
+        }
+      },
+      "benchmark_returns": {
+        "1_month": {
+          "nav": null,
+          "change_pct": 1.861976
+        },
+        "3_months": {
+          "nav": null,
+          "change_pct": 5.190275
+        },
+        "6_months": {
+          "nav": null,
+          "change_pct": -2.892018
+        },
+        "1_year": {
+          "nav": null,
+          "change_pct": -0.763089
+        },
+        "2_years": {
+          "nav": null,
+          "change_pct": 3.363657
+        },
+        "3_years": {
+          "nav": null,
+          "change_pct": 7.3838
+        },
+        "4_years": {
+          "nav": null,
+          "change_pct": null
+        },
+        "5_years": {
+          "nav": null,
+          "change_pct": null
+        },
+        "since_inception": {
+          "nav": null,
+          "change_pct": 8.859409
+        }
+      }
+    },
+    "FGF": {
+      "month": "202606",
+      "sfin": "ULIF 068 25/04/23 FGF 110",
+      "official_name": "FLEXI GROWTH FUND",
+      "manager": "Mr. Nitin Bansal & Mr. Shashank Khetawat & Mr. Pankaj Agarwal",
+      "objective": "The primary investment objective of the Fund is to generate capital appreciation in the long term by investing in a portfolio of stocks across market capitalization. The fund maintains flexibility to invest in carefully selected companies that offer opportunities across large, mid or small capitalization space. The fund will invest 70%-100% in Equity and Equity related instruments and 0%-30% in Debt and Money Market Securities.",
+      "type": "Equity",
+      "risk": "High",
+      "aum_cr": 1294.928794,
+      "benchmark": "NIFTY 500 Index",
+      "asset_mix": {
+        "equity_pct": 94.610233,
+        "debt_pct": null,
+        "mmi_others_pct": 5.389767
+      },
+      "holdings": [
+        {
+          "name": "ICICI Bank Ltd",
+          "pct": 7.140654
+        },
+        {
+          "name": "ETERNAL LIMITED",
+          "pct": 4.971176
+        },
+        {
+          "name": "Reliance Industries Ltd",
+          "pct": 3.931804
+        },
+        {
+          "name": "BSE Ltd",
+          "pct": 3.894142
+        },
+        {
+          "name": "Shriram Finance Limited",
+          "pct": 3.406931
+        },
+        {
+          "name": "Syrma SGS Technology Ltd",
+          "pct": 3.165872
+        },
+        {
+          "name": "Mahindra and Mahindra Ltd",
+          "pct": 3.043185
+        },
+        {
+          "name": "Kotak Mahindra Bank Ltd",
+          "pct": 3.005524
+        },
+        {
+          "name": "HDFC Bank Ltd",
+          "pct": 2.910706
+        },
+        {
+          "name": "The Indian Hotels Company Ltd",
+          "pct": 2.857749
+        }
+      ],
+      "sectors": [
+        {
+          "name": "Financial service activities, except insurance and pension funding",
+          "pct": 20.211898
+        },
+        {
+          "name": "Manufacture of motor vehicles, trailers and semi-trailers",
+          "pct": 6.553128
+        },
+        {
+          "name": "Computer programming, consultancy and related activities",
+          "pct": 6.325877
+        },
+        {
+          "name": "Manufacture of machinery and equipment n.e.c.",
+          "pct": 5.943751
+        },
+        {
+          "name": "Other financial activities",
+          "pct": 5.82209
+        },
+        {
+          "name": "Information service activities",
+          "pct": 5.611985
+        },
+        {
+          "name": "Manufacture of coke and refined petroleum products",
+          "pct": 5.398368
+        },
+        {
+          "name": "Manufacture of pharmaceuticals,medicinal chemical and botanical products",
+          "pct": 4.278459
+        },
+        {
+          "name": "Telecommunications",
+          "pct": 3.559458
+        },
+        {
+          "name": "Construction of buildings",
+          "pct": 3.230953
+        },
+        {
+          "name": "Others",
+          "pct": 33.064033
+        }
+      ],
+      "returns": {
+        "1_month": {
+          "nav": 13.2335,
+          "change_pct": 3.036234
+        },
+        "3_months": {
+          "nav": 11.9223,
+          "change_pct": 14.368033
+        },
+        "6_months": {
+          "nav": 13.4977,
+          "change_pct": 1.019433
+        },
+        "1_year": {
+          "nav": 13.286,
+          "change_pct": 2.629083
+        },
+        "2_years": {
+          "nav": 11.8492,
+          "change_pct": 7.27236
+        },
+        "3_years": {
+          "nav": null,
+          "change_pct": null
+        },
+        "4_years": {
+          "nav": null,
+          "change_pct": null
+        },
+        "5_years": {
+          "nav": null,
+          "change_pct": null
+        },
+        "since_inception": {
+          "nav": 10.0,
+          "change_pct": 13.212769
+        }
+      },
+      "benchmark_returns": {
+        "1_month": {
+          "nav": 22657.0,
+          "change_pct": 1.494682
+        },
+        "3_months": {
+          "nav": 20528.05,
+          "change_pct": 12.020625
+        },
+        "6_months": {
+          "nav": 23871.55,
+          "change_pct": -3.669221
+        },
+        "1_year": {
+          "nav": 23617.2,
+          "change_pct": -2.631768
+        },
+        "2_years": {
+          "nav": 22559.7,
+          "change_pct": 0.961591
+        },
+        "3_years": {
+          "nav": null,
+          "change_pct": null
+        },
+        "4_years": {
+          "nav": null,
+          "change_pct": null
+        },
+        "5_years": {
+          "nav": null,
+          "change_pct": null
+        },
+        "since_inception": {
+          "nav": 19429.15,
+          "change_pct": 6.977589
+        }
+      }
+    },
+    "SCF": {
+      "month": "202606",
+      "sfin": "ULIF 071 22/05/23 SCF 110",
+      "official_name": "SMALL CAP DISCOVERY FUND",
+      "manager": "Mr. Nitin Bansal & Mr. Shashank Khetawat & Mr. Pankaj Agarwal",
+      "objective": "The primary investment objective of the Fund is to generate capital appreciation in the long term by investing in a portfolio of stocks in small-cap market capitalization. The fund will primarily invest in carefully selected small-cap companies that offer opportunities for long-term value creation.Minimum 65% of portfolio will comprise of small-cap stocks.",
+      "type": "Equity",
+      "risk": "High",
+      "aum_cr": 2554.555045,
+      "benchmark": "NIFTY Small cap 100 = 100%",
+      "asset_mix": {
+        "equity_pct": 91.795645,
+        "debt_pct": null,
+        "mmi_others_pct": 8.204355
+      },
+      "holdings": [
+        {
+          "name": "Karur Vysya Bank Ltd",
+          "pct": 3.765174
+        },
+        {
+          "name": "ETERNAL LIMITED",
+          "pct": 3.682816
+        },
+        {
+          "name": "Syrma SGS Technology Ltd",
+          "pct": 3.652597
+        },
+        {
+          "name": "City Union Bank Ltd",
+          "pct": 3.42089
+        },
+        {
+          "name": "Navin Fluorine International Ltd",
+          "pct": 3.044492
+        },
+        {
+          "name": "Avalon Technologies Ltd",
+          "pct": 2.727769
+        },
+        {
+          "name": "Radico Khaitan Ltd",
+          "pct": 2.689956
+        },
+        {
+          "name": "Bandhan Bank Ltd",
+          "pct": 2.587716
+        },
+        {
+          "name": "PNB Housing Finance Ltd",
+          "pct": 2.305308
+        },
+        {
+          "name": "Travel Food Services Ltd",
+          "pct": 2.21957
+        }
+      ],
+      "sectors": [
+        {
+          "name": "Financial service activities, except insurance and pension funding",
+          "pct": 18.216447
+        },
+        {
+          "name": "Manufacture of electrical equipment",
+          "pct": 7.293754
+        },
+        {
+          "name": "Manufacture of chemicals and chemical products",
+          "pct": 6.566267
+        },
+        {
+          "name": "Manufacture of computer, electronic and optical products",
+          "pct": 6.380366
+        },
+        {
+          "name": "Human health activities",
+          "pct": 6.22705
+        },
+        {
+          "name": "Manufacture of motor vehicles, trailers and semi-trailers",
+          "pct": 5.842246
+        },
+        {
+          "name": "Manufacture of pharmaceuticals,medicinal chemical and botanical products",
+          "pct": 5.149981
+        },
+        {
+          "name": "Information service activities",
+          "pct": 3.682816
+        },
+        {
+          "name": "Manufacture of rubber and plastics products",
+          "pct": 3.458042
+        },
+        {
+          "name": "Manufacture of beverages",
+          "pct": 2.689956
+        },
+        {
+          "name": "Others",
+          "pct": 34.493075
+        }
+      ],
+      "returns": {
+        "1_month": {
+          "nav": 20.1316,
+          "change_pct": 3.903316
+        },
+        "3_months": {
+          "nav": 17.5098,
+          "change_pct": 19.461102
+        },
+        "6_months": {
+          "nav": 19.4799,
+          "change_pct": 7.379401
+        },
+        "1_year": {
+          "nav": 18.942,
+          "change_pct": 10.428677
+        },
+        "2_years": {
+          "nav": 16.5371,
+          "change_pct": 12.466758
+        },
+        "3_years": {
+          "nav": null,
+          "change_pct": null
+        },
+        "4_years": {
+          "nav": null,
+          "change_pct": null
+        },
+        "5_years": {
+          "nav": null,
+          "change_pct": null
+        },
+        "since_inception": {
+          "nav": 10.0,
+          "change_pct": 28.566579
+        }
+      },
+      "benchmark_returns": {
+        "1_month": {
+          "nav": 18138.8,
+          "change_pct": 3.993098
+        },
+        "3_months": {
+          "nav": 15203.8,
+          "change_pct": 24.068325
+        },
+        "6_months": {
+          "nav": 17713.95,
+          "change_pct": 6.48726
+        },
+        "1_year": {
+          "nav": 19075.1,
+          "change_pct": -1.111397
+        },
+        "2_years": {
+          "nav": 18317.7,
+          "change_pct": 1.477804
+        },
+        "3_years": {
+          "nav": null,
+          "change_pct": null
+        },
+        "4_years": {
+          "nav": null,
+          "change_pct": null
+        },
+        "5_years": {
+          "nav": null,
+          "change_pct": null
+        },
+        "since_inception": {
+          "nav": 11571.9,
+          "change_pct": 18.101059
+        }
+      }
+    },
+    "RIF": {
+      "month": "202606",
+      "sfin": "ULIF 073 17/01/24 RIF 110",
+      "official_name": "RISING INDIA FUND",
+      "manager": "Mr. Nimesh Mistry & Mr. Pankaj Agarwal",
+      "objective": "The objective of the fund is to generate capital appreciation by investing predominantly in equity and equity-related securities with a focus to invest in growth stories across the Indian corporate landscape.",
+      "type": "Equity",
+      "risk": "High",
+      "aum_cr": 895.021376,
+      "benchmark": "NIFTY 500",
+      "asset_mix": {
+        "equity_pct": 96.78476,
+        "debt_pct": null,
+        "mmi_others_pct": 3.21524
+      },
+      "holdings": [
+        {
+          "name": "BSE Ltd",
+          "pct": 5.598119
+        },
+        {
+          "name": "Torrent Pharmaceuticals Ltd",
+          "pct": 3.485795
+        },
+        {
+          "name": "Syrma SGS Technology Ltd",
+          "pct": 2.992987
+        },
+        {
+          "name": "Ajanta Pharma Ltd",
+          "pct": 2.957792
+        },
+        {
+          "name": "Reliance Industries Ltd",
+          "pct": 2.921282
+        },
+        {
+          "name": "HDFC Bank Ltd",
+          "pct": 2.715925
+        },
+        {
+          "name": "PB Fintech Ltd",
+          "pct": 2.500069
+        },
+        {
+          "name": "Motherson Sumi Wiring India Ltd",
+          "pct": 2.342319
+        },
+        {
+          "name": "City Union Bank Ltd",
+          "pct": 2.331309
+        },
+        {
+          "name": "Crompton Greaves Consumer Electricals Ltd",
+          "pct": 2.270977
+        }
+      ],
+      "sectors": [
+        {
+          "name": "Financial service activities, except insurance and pension funding",
+          "pct": 12.196031
+        },
+        {
+          "name": "Manufacture of pharmaceuticals,medicinal chemical and botanical products",
+          "pct": 9.128746
+        },
+        {
+          "name": "Manufacture of machinery and equipment n.e.c.",
+          "pct": 7.530312
+        },
+        {
+          "name": "Manufacture of Basic Metals",
+          "pct": 7.269157
+        },
+        {
+          "name": "Manufacture of motor vehicles, trailers and semi-trailers",
+          "pct": 6.593993
+        },
+        {
+          "name": "Manufacture of electrical equipment",
+          "pct": 5.878056
+        },
+        {
+          "name": "Information service activities",
+          "pct": 5.838677
+        },
+        {
+          "name": "Other financial activities",
+          "pct": 5.598119
+        },
+        {
+          "name": "Insurance, reinsurance and pension funding, except compulsory social security",
+          "pct": 5.088585
+        },
+        {
+          "name": "Manufacture of computer, electronic and optical products",
+          "pct": 4.687674
+        },
+        {
+          "name": "Others",
+          "pct": 30.190651
+        }
+      ],
+      "returns": {
+        "1_month": {
+          "nav": 12.1302,
+          "change_pct": 2.624029
+        },
+        "3_months": {
+          "nav": 10.9192,
+          "change_pct": 14.005605
+        },
+        "6_months": {
+          "nav": 12.387,
+          "change_pct": 0.496488
+        },
+        "1_year": {
+          "nav": 11.8872,
+          "change_pct": 4.721886
+        },
+        "2_years": {
+          "nav": 11.0289,
+          "change_pct": 6.241064
+        },
+        "3_years": {
+          "nav": null,
+          "change_pct": null
+        },
+        "4_years": {
+          "nav": null,
+          "change_pct": null
+        },
+        "5_years": {
+          "nav": null,
+          "change_pct": null
+        },
+        "since_inception": {
+          "nav": 10.0,
+          "change_pct": 10.226776
+        }
+      },
+      "benchmark_returns": {
+        "1_month": {
+          "nav": 22657.0,
+          "change_pct": 1.494682
+        },
+        "3_months": {
+          "nav": 20528.05,
+          "change_pct": 12.020625
+        },
+        "6_months": {
+          "nav": 23871.55,
+          "change_pct": -3.669221
+        },
+        "1_year": {
+          "nav": 23617.2,
+          "change_pct": -2.631768
+        },
+        "2_years": {
+          "nav": 22559.7,
+          "change_pct": 0.961591
+        },
+        "3_years": {
+          "nav": null,
+          "change_pct": null
+        },
+        "4_years": {
+          "nav": null,
+          "change_pct": null
+        },
+        "5_years": {
+          "nav": null,
+          "change_pct": null
+        },
+        "since_inception": {
+          "nav": 20255.15,
+          "change_pct": 5.803709
+        }
+      }
+    },
+    "MIF": {
+      "month": "202606",
+      "sfin": "ULIF 075 09/05/24 MIF 110",
+      "official_name": "MIDCAP MOMENTUM INDEX FUND",
+      "manager": "Mr.Nimesh Mistry; Mr. Rajeev Tewari & Mr. Pankaj Agarwal",
+      "objective": "The primary investment objective of the Fund is to generate capital appreciation in the long term by investing in a portfolio of stocks indexed to the Nifty Midcap 150 Momentum 50 Index Fund. The fund will invest 80%-100% in Equity and Equity related instruments and 0%-20% in Debt Cash and Money Market Securities",
+      "type": "Equity",
+      "risk": "High",
+      "aum_cr": 827.849202,
+      "benchmark": "Nifty Midcap 150 Momentum 50 Index - 100%",
+      "asset_mix": {
+        "equity_pct": 98.13596,
+        "debt_pct": null,
+        "mmi_others_pct": 1.86404
+      },
+      "holdings": [
+        {
+          "name": "Laurus Labs Ltd",
+          "pct": 5.074446
+        },
+        {
+          "name": "MCX of India Ltd",
+          "pct": 4.85726
+        },
+        {
+          "name": "BSE Ltd",
+          "pct": 4.836803
+        },
+        {
+          "name": "GE Vernova T&D India Ltd",
+          "pct": 4.75869
+        },
+        {
+          "name": "The Federal Bank Ltd",
+          "pct": 4.511118
+        },
+        {
+          "name": "Hitachi Energy India Ltd.",
+          "pct": 3.798874
+        },
+        {
+          "name": "Polycab India Ltd",
+          "pct": 3.547147
+        },
+        {
+          "name": "National Aluminium Co. Ltd",
+          "pct": 3.017522
+        },
+        {
+          "name": "Vodafone Idea Ltd",
+          "pct": 2.602995
+        },
+        {
+          "name": "AU Small Finance Bank Ltd",
+          "pct": 2.594187
+        }
+      ],
+      "sectors": [
+        {
+          "name": "Financial service activities, except insurance and pension funding",
+          "pct": 16.914728
+        },
+        {
+          "name": "Manufacture of electrical equipment",
+          "pct": 14.103812
+        },
+        {
+          "name": "Other financial activities",
+          "pct": 9.694062
+        },
+        {
+          "name": "Manufacture of pharmaceuticals,medicinal chemical and botanical products",
+          "pct": 8.384264
+        },
+        {
+          "name": "Manufacture of fabricated metal products, except machinery and equipment",
+          "pct": 6.688206
+        },
+        {
+          "name": "Manufacture of Basic Metals",
+          "pct": 6.288384
+        },
+        {
+          "name": "Telecommunications",
+          "pct": 5.354935
+        },
+        {
+          "name": "Scientific research and development",
+          "pct": 5.074446
+        },
+        {
+          "name": "Civil engineering",
+          "pct": 4.190315
+        },
+        {
+          "name": "Electricity, gas, steam and air conditioning supply",
+          "pct": 2.407975
+        },
+        {
+          "name": "Others",
+          "pct": 20.898873
+        }
+      ],
+      "returns": {
+        "1_month": {
+          "nav": 9.8216,
+          "change_pct": -0.242323
+        },
+        "3_months": {
+          "nav": 8.5162,
+          "change_pct": 15.048966
+        },
+        "6_months": {
+          "nav": 9.6688,
+          "change_pct": 1.334188
+        },
+        "1_year": {
+          "nav": 10.0395,
+          "change_pct": -2.40749
+        },
+        "2_years": {
+          "nav": 9.8799,
+          "change_pct": -0.416357
+        },
+        "3_years": {
+          "nav": null,
+          "change_pct": null
+        },
+        "4_years": {
+          "nav": null,
+          "change_pct": null
+        },
+        "5_years": {
+          "nav": null,
+          "change_pct": null
+        },
+        "since_inception": {
+          "nav": 10.0,
+          "change_pct": -0.999811
+        }
+      },
+      "benchmark_returns": {
+        "1_month": {
+          "nav": 63420.95,
+          "change_pct": -0.303291
+        },
+        "3_months": {
+          "nav": 54460.9,
+          "change_pct": 16.099073
+        },
+        "6_months": {
+          "nav": 61915.4,
+          "change_pct": 2.120959
+        },
+        "1_year": {
+          "nav": 63979.45,
+          "change_pct": -1.17358
+        },
+        "2_years": {
+          "nav": 62756.05,
+          "change_pct": 0.375791
+        },
+        "3_years": {
+          "nav": null,
+          "change_pct": null
+        },
+        "4_years": {
+          "nav": null,
+          "change_pct": null
+        },
+        "5_years": {
+          "nav": null,
+          "change_pct": null
+        },
+        "since_inception": {
+          "nav": 63890.5,
+          "change_pct": -0.510967
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+[
+  { "code": "WLF", "sfin": "ULIF 013 04/01/07 WLF 110", "name": "Whole Life ST Fixed Income Fund" },
+  { "code": "WLE", "sfin": "ULIF 009 04/01/07 WLE 110", "name": "Whole Life Mid Cap Equity Fund" },
+  { "code": "WLS", "sfin": "ULIF 011 04/01/07 WLS 110", "name": "Whole Life Stable Growth Fund" },
+  { "code": "TLC", "sfin": "ULIF 017 07/01/08 TLC 110", "name": "Large Cap Equity Fund" },
+  { "code": "WLA", "sfin": "ULIF 010 04/01/07 WLA 110", "name": "Whole Life Aggressive Growth Fund" },
+  { "code": "WLI", "sfin": "ULIF 012 04/01/07 WLI 110", "name": "Whole Life Income Fund" },
+  { "code": "TSS", "sfin": "ULIF 035 16/10/09 TSS 110", "name": "Super Select Equity Fund" },
+  { "code": "ITF", "sfin": "ULIF 026 12/01/09 ITF 110", "name": "Top 50 Fund" },
+  { "code": "ITT", "sfin": "ULIF 027 12/01/09 ITT 110", "name": "Top 200 Fund" },
+  { "code": "MCF", "sfin": "ULIF 060 15/07/14 MCF 110", "name": "Multi Cap Fund" },
+  { "code": "ICF", "sfin": "ULIF 061 15/07/14 ICF 110", "name": "India Consumption Fund" },
+  { "code": "EOF", "sfin": "ULIF 064 12/09/22 EOF 110", "name": "Emerging Opportunities Fund" },
+  { "code": "ESG", "sfin": "ULIF 065 12/09/22 ESG 110", "name": "Sustainable Equity Fund" },
+  { "code": "DAF", "sfin": "ULIF 066 12/09/22 DAF 110", "name": "Dynamic Advantage Fund" },
+  { "code": "FGF", "sfin": "ULIF 068 25/04/23 FGF 110", "name": "Flexi Growth Fund" },
+  { "code": "SCF", "sfin": "ULIF 071 22/05/23 SCF 110", "name": "Small Cap Discovery Fund" },
+  { "code": "RIF", "sfin": "ULIF 073 17/01/24 RIF 110", "name": "Rising India Fund" },
+  { "code": "MIF", "sfin": "ULIF 075 09/05/24 MIF 110", "name": "Midcap Momentum Index Fund" }
+]
