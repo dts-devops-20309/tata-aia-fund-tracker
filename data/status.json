@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-11-16T15:08:31+00:00",
+  "run_at": "2026-11-16T15:14:34+00:00",
   "errors": [],
   "new_points": 0,
   "latest_portfolio_month": "202606",
@@ -38,16 +38,16 @@
       "stale": false
     },
     "ITF": {
-      "first": "2026-08-19",
-      "last": "2026-08-19",
-      "points": 1,
-      "stale": true
+      "first": "2009-01-12",
+      "last": "2026-11-16",
+      "points": 4425,
+      "stale": false
     },
     "ITT": {
-      "first": "2026-08-19",
-      "last": "2026-08-19",
-      "points": 1,
-      "stale": true
+      "first": "2009-01-12",
+      "last": "2026-11-16",
+      "points": 4425,
+      "stale": false
     },
     "MCF": {
       "first": "2015-10-05",
@@ -86,22 +86,22 @@
       "stale": false
     },
     "WLA": {
-      "first": "2026-08-19",
-      "last": "2026-08-19",
-      "points": 1,
-      "stale": true
+      "first": "2007-01-12",
+      "last": "2026-11-16",
+      "points": 4918,
+      "stale": false
     },
     "WLE": {
-      "first": "2026-08-19",
-      "last": "2026-08-19",
-      "points": 1,
-      "stale": true
+      "first": "2007-01-10",
+      "last": "2026-11-16",
+      "points": 4920,
+      "stale": false
     },
     "WLF": {
-      "first": "2026-08-19",
-      "last": "2026-08-19",
-      "points": 1,
-      "stale": true
+      "first": "2007-02-12",
+      "last": "2026-11-16",
+      "points": 4898,
+      "stale": false
     },
     "WLI": {
       "first": "2026-08-19",
@@ -110,19 +110,13 @@
       "stale": true
     },
     "WLS": {
-      "first": "2026-08-19",
-      "last": "2026-08-19",
-      "points": 1,
-      "stale": true
+      "first": "2007-01-18",
+      "last": "2026-11-16",
+      "points": 4913,
+      "stale": false
     }
   },
   "stale_funds": [
-    "ITF",
-    "ITT",
-    "WLA",
-    "WLE",
-    "WLF",
-    "WLI",
-    "WLS"
+    "WLI"
   ]
 }
