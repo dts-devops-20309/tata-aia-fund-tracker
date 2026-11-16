@@ -54,6 +54,24 @@ def parse_file(path: Path) -> dict[str, float]:
     return points
 
 
+SPIKE = 0.15  # a fund NAV never jumps >15% for a single day and straight back
+
+
+def drop_spikes(points: dict[str, float]) -> list[str]:
+    """Remove isolated one-row glitches in upstream exports (e.g. a weekend row
+    carrying a NAV from a different year). Returns the dropped dates."""
+    dates = sorted(points)
+    bad = []
+    for i in range(1, len(dates) - 1):
+        prev, cur, nxt = points[dates[i - 1]], points[dates[i]], points[dates[i + 1]]
+        up, down = cur / prev - 1, cur / nxt - 1
+        if (up > SPIKE and down > SPIKE) or (up < -SPIKE and down < -SPIKE):
+            bad.append(dates[i])
+    for d in bad:
+        del points[d]
+    return bad
+
+
 def main() -> int:
     codes = {f["code"] for f in json.loads((ROOT / "funds.json").read_text())}
     files = sorted((DATA / "import").glob("*.csv"))
@@ -69,6 +87,8 @@ def main() -> int:
         if not points:
             print(f"skip {path.name}: no date/NAV rows recognised")
             continue
+        for d in drop_spikes(points):
+            print(f"{code}: dropped glitch row {d} (isolated >{SPIKE:.0%} spike vs both neighbours)")
         changed = upsert_nav(code, points)
         print(f"{code}: {len(points)} rows read ({min(points)} .. {max(points)}), {changed} new/changed")
     return 0
