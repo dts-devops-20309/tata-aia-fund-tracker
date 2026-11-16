@@ -201,15 +201,24 @@ def main() -> int:
             print(f"::error::{name} failed: {exc}")
 
     prev = json.loads((DATA / "status.json").read_text()) if (DATA / "status.json").exists() else {}
-    status.setdefault("latest_nav_date", prev.get("latest_nav_date"))
+    # What the public feed reported this run (may lag behind imported CSVs).
+    status["feed_nav_date"] = status.pop("latest_nav_date", None) or prev.get("feed_nav_date")
     status.setdefault("latest_portfolio_month", prev.get("latest_portfolio_month"))
 
-    if status.get("latest_nav_date"):
-        age = (date.today() - date.fromisoformat(status["latest_nav_date"])).days
-        status["nav_age_days"] = age
-        status["nav_stale"] = age > STALE_AFTER_DAYS
-        if status["nav_stale"]:
-            print(f"::warning::Upstream NAV feed is stale: latest NAV date {status['latest_nav_date']} ({age} days old)")
+    # Per-fund coverage from the stored history (feed + CSV imports).
+    today = date.today()
+    coverage = {}
+    for code in sorted(funds):
+        series = read_nav_csv(DATA / "nav" / f"{code}.csv")
+        if series:
+            last = max(series)
+            coverage[code] = {"first": min(series), "last": last, "points": len(series),
+                              "stale": (today - date.fromisoformat(last)).days > STALE_AFTER_DAYS}
+    status["funds"] = coverage
+    stale = [c for c, v in coverage.items() if v["stale"]]
+    status["stale_funds"] = stale
+    if stale:
+        print(f"::warning::{len(stale)} fund(s) have no NAV in the last {STALE_AFTER_DAYS} days: {', '.join(stale)}")
 
     # Only rewrite status.json when something other than the timestamp moved,
     # so a quiet night does not create a commit.

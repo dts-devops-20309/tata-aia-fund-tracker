@@ -1,11 +1,136 @@
 {
-  "run_at": "2026-11-16T14:38:55+00:00",
+  "run_at": "2026-11-16T14:53:49+00:00",
   "errors": [],
-  "latest_nav_date": "2026-08-19",
-  "new_points": 18,
+  "new_points": 0,
   "latest_portfolio_month": "202606",
-  "portfolio_changed": true,
+  "portfolio_changed": false,
   "missing_in_details": [],
-  "nav_age_days": 89,
-  "nav_stale": true
+  "feed_nav_date": "2026-08-19",
+  "funds": {
+    "DAF": {
+      "first": "2023-03-31",
+      "last": "2026-11-16",
+      "points": 899,
+      "stale": false
+    },
+    "EOF": {
+      "first": "2022-12-31",
+      "last": "2026-11-16",
+      "points": 961,
+      "stale": false
+    },
+    "ESG": {
+      "first": "2026-08-19",
+      "last": "2026-08-19",
+      "points": 1,
+      "stale": true
+    },
+    "FGF": {
+      "first": "2026-08-19",
+      "last": "2026-08-19",
+      "points": 1,
+      "stale": true
+    },
+    "ICF": {
+      "first": "2026-08-19",
+      "last": "2026-08-19",
+      "points": 1,
+      "stale": true
+    },
+    "ITF": {
+      "first": "2026-08-19",
+      "last": "2026-08-19",
+      "points": 1,
+      "stale": true
+    },
+    "ITT": {
+      "first": "2026-08-19",
+      "last": "2026-08-19",
+      "points": 1,
+      "stale": true
+    },
+    "MCF": {
+      "first": "2015-10-05",
+      "last": "2026-11-16",
+      "points": 2755,
+      "stale": false
+    },
+    "MIF": {
+      "first": "2026-08-19",
+      "last": "2026-08-19",
+      "points": 1,
+      "stale": true
+    },
+    "RIF": {
+      "first": "2026-08-19",
+      "last": "2026-08-19",
+      "points": 1,
+      "stale": true
+    },
+    "SCF": {
+      "first": "2026-08-19",
+      "last": "2026-08-19",
+      "points": 1,
+      "stale": true
+    },
+    "TLC": {
+      "first": "2026-08-19",
+      "last": "2026-08-19",
+      "points": 1,
+      "stale": true
+    },
+    "TSS": {
+      "first": "2026-08-19",
+      "last": "2026-08-19",
+      "points": 1,
+      "stale": true
+    },
+    "WLA": {
+      "first": "2026-08-19",
+      "last": "2026-08-19",
+      "points": 1,
+      "stale": true
+    },
+    "WLE": {
+      "first": "2026-08-19",
+      "last": "2026-08-19",
+      "points": 1,
+      "stale": true
+    },
+    "WLF": {
+      "first": "2026-08-19",
+      "last": "2026-08-19",
+      "points": 1,
+      "stale": true
+    },
+    "WLI": {
+      "first": "2026-08-19",
+      "last": "2026-08-19",
+      "points": 1,
+      "stale": true
+    },
+    "WLS": {
+      "first": "2026-08-19",
+      "last": "2026-08-19",
+      "points": 1,
+      "stale": true
+    }
+  },
+  "stale_funds": [
+    "ESG",
+    "FGF",
+    "ICF",
+    "ITF",
+    "ITT",
+    "MIF",
+    "RIF",
+    "SCF",
+    "TLC",
+    "TSS",
+    "WLA",
+    "WLE",
+    "WLF",
+    "WLI",
+    "WLS"
+  ]
 }

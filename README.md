@@ -43,7 +43,7 @@ The public daily feed only carries the latest day, so older history has to be im
 ## Known limitation
 
 As of 2026-11-16 the upstream public feeds have not refreshed since **2026-08-19** (NAV) and **June 2026** (fact sheet). Their backing service, `sellonline.tataaia.com`, shows a maintenance page. While that lasts:
-- the nightly job adds nothing new and logs a `nav_stale` warning in `data/status.json` and the run summary;
+- the nightly job adds nothing new and lists every fund with no NAV in the last 4 days under `stale_funds` in `data/status.json`, and warns in the run summary;
 - it starts collecting again as soon as Tata AIA refreshes the feeds.
 
 ## Funds tracked
