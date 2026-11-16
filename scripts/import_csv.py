@@ -16,7 +16,7 @@ from __future__ import annotations
 import csv
 import json
 import sys
-from datetime import datetime
+from datetime import date, datetime
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -54,18 +54,33 @@ def parse_file(path: Path) -> dict[str, float]:
     return points
 
 
-SPIKE = 0.15  # a fund NAV never jumps >15% for a single day and straight back
+SPIKE = 0.15        # a fund NAV never jumps >15% for a single day and straight back
+COPY_SPIKE = 0.04   # smaller isolated spikes are dropped if the value is a copy
+COPY_GAP_DAYS = 180 # ...of a NAV published at least this far away
 
 
 def drop_spikes(points: dict[str, float]) -> list[str]:
-    """Remove isolated one-row glitches in upstream exports (e.g. a weekend row
-    carrying a NAV from a different year). Returns the dropped dates."""
+    """Remove isolated one-row glitches in upstream exports. Tata AIA's CSVs
+    contain rows (e.g. 03-01-2010, a Sunday) carrying a NAV copied from another
+    date. A row is dropped when it jumps away from BOTH neighbours in the same
+    direction by >SPIKE, or by >COPY_SPIKE when its value exactly repeats the
+    NAV of a date more than COPY_GAP_DAYS away. Returns the dropped dates."""
     dates = sorted(points)
+    by_value: dict[float, list[date]] = {}
+    for d, v in points.items():
+        by_value.setdefault(v, []).append(date.fromisoformat(d))
+
+    def copied(d: str) -> bool:
+        day = date.fromisoformat(d)
+        return any(abs((o - day).days) > COPY_GAP_DAYS for o in by_value[points[d]])
+
     bad = []
     for i in range(1, len(dates) - 1):
         prev, cur, nxt = points[dates[i - 1]], points[dates[i]], points[dates[i + 1]]
         up, down = cur / prev - 1, cur / nxt - 1
-        if (up > SPIKE and down > SPIKE) or (up < -SPIKE and down < -SPIKE):
+        same_dir = (up > 0) == (down > 0)
+        size = min(abs(up), abs(down))
+        if same_dir and (size > SPIKE or (size > COPY_SPIKE and copied(dates[i]))):
             bad.append(dates[i])
     for d in bad:
         del points[d]
@@ -88,7 +103,7 @@ def main() -> int:
             print(f"skip {path.name}: no date/NAV rows recognised")
             continue
         for d in drop_spikes(points):
-            print(f"{code}: dropped glitch row {d} (isolated >{SPIKE:.0%} spike vs both neighbours)")
+            print(f"{code}: dropped glitch row {d} (isolated one-day spike vs both neighbours)")
         changed = upsert_nav(code, points)
         print(f"{code}: {len(points)} rows read ({min(points)} .. {max(points)}), {changed} new/changed")
     return 0
