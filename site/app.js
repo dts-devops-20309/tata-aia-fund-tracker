@@ -4,7 +4,9 @@
  * All upstream text is passed through esc() before it is inserted as HTML. */
 "use strict";
 
-const SINCE = "2022-01-01";
+const SINCE = "2023-01-01"; // start of the analysis window
+const SINCE_SHORT = `Jan '${SINCE.slice(2, 4)}`;   // "Jan '23"
+const SINCE_LONG = `Jan ${SINCE.slice(0, 4)}`;     // "Jan 2023"
 const DAY = 86400000;
 
 // ---------- formatting ----------
@@ -52,7 +54,7 @@ const WINDOWS = [
   { key: "1Y", label: "1 year", base: (f, last) => idxAtOrBefore(f.d, addMonths(last, -12)) },
 ];
 
-/** Base point for "since Jan 2022": last NAV on/before 1 Jan 2022, else the launch NAV. */
+/** Base point for "since SINCE": last NAV on/before SINCE, else the launch NAV. */
 function sinceStart(f) {
   if (!f.d.length) return null;
   const i = idxAtOrBefore(f.d, SINCE);
@@ -97,7 +99,7 @@ const GRANS = [
   { key: "H", label: "Half-yearly", noun: "half-year" },
   { key: "Y", label: "Yearly", noun: "year" },
 ];
-const FORTNIGHT_ANCHOR = toTs("2022-01-03"); // a Monday
+const FORTNIGHT_ANCHOR = toTs("2023-01-02"); // first Monday of the analysis window
 
 function bucketOf(s, g) {
   const y = s.slice(0, 4), m = +s.slice(5, 7);
@@ -118,7 +120,7 @@ function bucketOf(s, g) {
   }
 }
 
-/** Period-by-period returns since Jan 2022 (or launch): each period's closing
+/** Period-by-period returns since SINCE (or launch): each period's closing
  *  NAV vs the previous period's closing NAV. The newest period is "to date". */
 function periodReturns(f, g) {
   const s = sinceStart(f);
@@ -279,7 +281,7 @@ function onSeg(id, fn) {
 const NEEDS = `<span class="badge"><span class="dot"></span>Needs data</span>`;
 
 // ---------- overview ----------
-const COLS = [...WINDOWS.map((w) => ({ key: w.key, label: w.key })), { key: "S22", label: "Since Jan '22" }, { key: "S22A", label: "Per year" }];
+const COLS = [...WINDOWS.map((w) => ({ key: w.key, label: w.key })), { key: "S22", label: `Since ${SINCE_SHORT}` }, { key: "S22A", label: "Per year" }];
 function metricFor(f, key) {
   const m = f.m; if (!m) return null;
   if (key === "S22") return m.since;
@@ -297,7 +299,7 @@ function renderOverview() {
   const app = document.getElementById("app");
   app.innerHTML = `
     <h1>How are my funds doing?</h1>
-    <p class="lede">Daily unit prices (NAV) and returns for ${funds.length} Tata AIA Life ULIP funds since January 2022, plus what each fund holds. When the NAV rises, every unit you own is worth more.${latest ? ` Latest price: <strong>${fmtDate(latest)}</strong>.` : ""}</p>
+    <p class="lede">Daily unit prices (NAV) and returns for ${funds.length} Tata AIA Life ULIP funds since ${SINCE_LONG}, plus what each fund holds. When the NAV rises, every unit you own is worth more.${latest ? ` Latest price: <strong>${fmtDate(latest)}</strong>.` : ""}</p>
     ${needs.length || old.length ? `<div class="notice"><span class="icon" aria-hidden="true">!</span><div>
       ${needs.length ? `<strong>${needs.length} of ${funds.length} funds have no price history yet</strong> and are marked ${NEEDS}. Their holdings are still shown. ` : ""}
       ${old.length ? `<strong>${old.length} fund${old.length > 1 ? "s have" : " has"} out-of-date prices.</strong>` : ""}</div></div>` : ""}
@@ -310,7 +312,7 @@ function renderOverview() {
     </section>
     <section class="card">
       <div class="card-head">
-        <div><h2>All funds at a glance</h2><p class="muted small">Click a column to sort. "Per year" is the average yearly growth since Jan 2022 (or since launch for newer funds).</p></div>
+        <div><h2>All funds at a glance</h2><p class="muted small">Click a column to sort. "Per year" is the average yearly growth since ${SINCE_LONG} (or since launch for newer funds).</p></div>
         ${seg(types.map((t) => ({ v: t, l: t })), state.typeFilter, "Fund type").replace('class="seg"', 'class="seg" id="type-seg"')}
       </div>
       <div class="table-scroll"><table id="ov-table"></table></div>
@@ -384,7 +386,7 @@ const RANGES = [
   { v: "6M", l: "6M", from: (last) => addMonths(last, -6) },
   { v: "1Y", l: "1Y", from: (last) => addMonths(last, -12) },
   { v: "3Y", l: "3Y", from: (last) => addMonths(last, -36) },
-  { v: "S22", l: "Since Jan '22", from: () => SINCE },
+  { v: "S22", l: `Since ${SINCE_SHORT}`, from: () => SINCE },
   { v: "ALL", l: "All", from: () => "0000-00-00" },
 ];
 
@@ -493,7 +495,7 @@ function renderFund(code) {
       <p class="muted small" style="margin:0 0 12px">How much the NAV changed over each period ending on the latest price.</p>
       <div class="returns">
         ${WINDOWS.map((w) => `<div class="ret"><div class="p">${w.label}</div><div class="r">${pctSpan(m.ret[w.key])}</div><div class="a">&nbsp;</div></div>`).join("")}
-        <div class="ret"><div class="p">${s.launched ? "Since launch" : "Since Jan '22"}</div><div class="r">${pctSpan(m.since)}</div><div class="a">${m.sinceAnn != null ? fmtPct(m.sinceAnn) + " a year" : "&nbsp;"}</div></div>
+        <div class="ret"><div class="p">${s.launched ? "Since launch" : `Since ${SINCE_SHORT}`}</div><div class="r">${pctSpan(m.since)}</div><div class="a">${m.sinceAnn != null ? fmtPct(m.sinceAnn) + " a year" : "&nbsp;"}</div></div>
       </div>
     </section>
     <section class="card">
