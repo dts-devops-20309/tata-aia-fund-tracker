@@ -1,0 +1,13 @@
+version: 2
+updates:
+  # Keep the SHA-pinned GitHub Actions up to date (bumps both SHA and version comment).
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: semiannually
+    groups:
+      actions:
+        patterns: ["*"]
+    commit-message:
+      prefix: "ci"
+    labels: ["type: chore", "area: ci"]
