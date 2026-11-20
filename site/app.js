@@ -266,7 +266,7 @@ function periodBarChart(node, W, rows, noun) {
 
 // ---------- app state ----------
 let DATA = null;
-const state = { overviewWindow: "1Y", typeFilter: "All", sort: { key: "1Y", dir: -1 }, navRange: "S22", gran: "M" };
+const state = { overviewWindow: "1Y", typeFilter: "All", sort: { key: "1Y", dir: -1 }, navRange: "SINCE", gran: "M" };
 const fundType = (f) => f.portfolio?.type || "—";
 function setPressed(group, value) {
   group.querySelectorAll("button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.v === value)));
@@ -281,11 +281,11 @@ function onSeg(id, fn) {
 const NEEDS = `<span class="badge"><span class="dot"></span>Needs data</span>`;
 
 // ---------- overview ----------
-const COLS = [...WINDOWS.map((w) => ({ key: w.key, label: w.key })), { key: "S22", label: `Since ${SINCE_SHORT}` }, { key: "S22A", label: "Per year" }];
+const COLS = [...WINDOWS.map((w) => ({ key: w.key, label: w.key })), { key: "SINCE", label: `Since ${SINCE_SHORT}` }, { key: "SINCEA", label: "Per year" }];
 function metricFor(f, key) {
   const m = f.m; if (!m) return null;
-  if (key === "S22") return m.since;
-  if (key === "S22A") return m.sinceAnn;
+  if (key === "SINCE") return m.since;
+  if (key === "SINCEA") return m.sinceAnn;
   return m.ret[key];
 }
 
@@ -306,7 +306,7 @@ function renderOverview() {
     <section class="card">
       <div class="card-head">
         <div><h2>Which funds did best?</h2><p class="muted small">Change in NAV over the chosen period, up to each fund's latest price. Click a fund for details.</p></div>
-        ${seg([...WINDOWS.map((w) => ({ v: w.key, l: w.key })), { v: "S22", l: "Since '22" }], state.overviewWindow, "Period").replace('class="seg"', 'class="seg" id="win-seg"')}
+        ${seg([...WINDOWS.map((w) => ({ v: w.key, l: w.key })), { v: "SINCE", l: `Since ${SINCE_SHORT}` }], state.overviewWindow, "Period").replace('class="seg"', 'class="seg" id="win-seg"')}
       </div>
       <div id="cmp" class="cmp"></div>
     </section>
@@ -386,7 +386,7 @@ const RANGES = [
   { v: "6M", l: "6M", from: (last) => addMonths(last, -6) },
   { v: "1Y", l: "1Y", from: (last) => addMonths(last, -12) },
   { v: "3Y", l: "3Y", from: (last) => addMonths(last, -36) },
-  { v: "S22", l: `Since ${SINCE_SHORT}`, from: () => SINCE },
+  { v: "SINCE", l: `Since ${SINCE_SHORT}`, from: () => SINCE },
   { v: "ALL", l: "All", from: () => "0000-00-00" },
 ];
 
