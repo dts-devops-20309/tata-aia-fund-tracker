@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-11-16T15:18:36+00:00",
+  "run_at": "2026-11-21T01:38:34+00:00",
   "errors": [],
   "new_points": 0,
   "latest_portfolio_month": "202606",
@@ -11,110 +11,129 @@
       "first": "2023-03-31",
       "last": "2026-11-16",
       "points": 899,
-      "stale": false
+      "stale": true
     },
     "EOF": {
       "first": "2022-12-31",
       "last": "2026-11-16",
       "points": 961,
-      "stale": false
+      "stale": true
     },
     "ESG": {
       "first": "2023-03-31",
       "last": "2026-11-16",
       "points": 899,
-      "stale": false
+      "stale": true
     },
     "FGF": {
       "first": "2023-12-31",
       "last": "2026-11-16",
       "points": 714,
-      "stale": false
+      "stale": true
     },
     "ICF": {
       "first": "2015-10-05",
       "last": "2026-11-16",
       "points": 2755,
-      "stale": false
+      "stale": true
     },
     "ITF": {
       "first": "2009-01-12",
       "last": "2026-11-16",
       "points": 4425,
-      "stale": false
+      "stale": true
     },
     "ITT": {
       "first": "2009-01-12",
       "last": "2026-11-16",
       "points": 4425,
-      "stale": false
+      "stale": true
     },
     "MCF": {
       "first": "2015-10-05",
       "last": "2026-11-16",
       "points": 2755,
-      "stale": false
+      "stale": true
     },
     "MIF": {
       "first": "2024-06-18",
       "last": "2026-11-16",
       "points": 600,
-      "stale": false
+      "stale": true
     },
     "RIF": {
       "first": "2024-03-31",
       "last": "2026-11-16",
       "points": 652,
-      "stale": false
+      "stale": true
     },
     "SCF": {
       "first": "2023-07-24",
       "last": "2026-11-16",
       "points": 823,
-      "stale": false
+      "stale": true
     },
     "TLC": {
       "first": "2008-01-11",
       "last": "2026-11-16",
       "points": 4670,
-      "stale": false
+      "stale": true
     },
     "TSS": {
       "first": "2009-10-21",
       "last": "2026-11-16",
       "points": 4235,
-      "stale": false
+      "stale": true
     },
     "WLA": {
       "first": "2007-01-12",
       "last": "2026-11-16",
       "points": 4918,
-      "stale": false
+      "stale": true
     },
     "WLE": {
       "first": "2007-01-10",
       "last": "2026-11-16",
       "points": 4920,
-      "stale": false
+      "stale": true
     },
     "WLF": {
       "first": "2007-02-12",
       "last": "2026-11-16",
       "points": 4898,
-      "stale": false
+      "stale": true
     },
     "WLI": {
       "first": "2007-02-06",
       "last": "2026-11-16",
       "points": 4902,
-      "stale": false
+      "stale": true
     },
     "WLS": {
       "first": "2007-01-18",
       "last": "2026-11-16",
       "points": 4913,
-      "stale": false
+      "stale": true
     }
   },
-  "stale_funds": []
+  "stale_funds": [
+    "DAF",
+    "EOF",
+    "ESG",
+    "FGF",
+    "ICF",
+    "ITF",
+    "ITT",
+    "MCF",
+    "MIF",
+    "RIF",
+    "SCF",
+    "TLC",
+    "TSS",
+    "WLA",
+    "WLE",
+    "WLF",
+    "WLI",
+    "WLS"
+  ]
 }
